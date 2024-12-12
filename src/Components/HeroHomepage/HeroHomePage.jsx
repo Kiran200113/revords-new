@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../../Styles/HeroHomePage.css";
+import "../../Styles/HeroHomepage.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
