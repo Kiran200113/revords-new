@@ -1,0 +1,40 @@
+#BackImageOverlayContainer {
+    margin: 100px 0px;
+    margin-bottom: 0px !important;
+}
+
+.OverlayImageContainer {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.OverlayImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlayContainer {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.743);
+    z-index: 5;
+}
+.CommitmentContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 55;
+}
+.ContentContainerCommitment{
+    width: 60%;
+    text-align: center;
+    color: white;
+}

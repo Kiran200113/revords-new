@@ -1,5 +1,6 @@
 .ScrollingAnimationContainer {
-    margin: 100px 40px;
+    padding: 100px 40px;
+    background-color: white;
 }
 
 .ScrollingAnimationCardsContainer {
@@ -30,4 +31,12 @@
     width: 100%;
     transition: .5s;
     border: 0.5px solid rgba(0, 0, 0, 0.391);
+}
+.CompanyDetailsContainer{
+    padding-right: 100px;
+    position: sticky;
+    top: 40vh;
+}
+.CompanyDetailsContainer h2{
+    font-size: 42px;
 }

@@ -12,7 +12,7 @@ const HeroHomePage = () => {
     const carousalData = [
         {
             img: "https://plus.unsplash.com/premium_photo-1728596880369-b25be3c6dcbf?q=80&w=3067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            text: "Welcome to Our Website",
+            text: "Welcome to Revords",
         },
         {
             img: "https://plus.unsplash.com/premium_photo-1661691874299-e8ba006e1645?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

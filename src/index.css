@@ -4,7 +4,7 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  height: 900vh;
+  /* height: 900vh; */
   font-family: "Montserrat", sans-serif;
   background-color: #eef0f6;
 }
