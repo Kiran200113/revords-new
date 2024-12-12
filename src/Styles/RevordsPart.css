@@ -1,0 +1,33 @@
+.ScrollingAnimationContainer {
+    margin: 100px 40px;
+}
+
+.ScrollingAnimationCardsContainer {
+    border-left: 1px solid rgba(136, 158, 168, 0.2);
+    padding-left: 80px;
+
+}
+
+.ScrollingAnimationCardsContainer>div {
+    border-top: 1px solid rgba(136, 158, 168, 0.079);
+    padding: 40px 0px;
+    position: relative;
+}
+
+.ScrollingAnimationCardsContainer>div hr {
+    opacity: 0;
+    width: 0px;
+    transition: .5s;
+    margin: 0px;
+    position: absolute;
+    bottom: -1px;
+    border: 0.5px solid rgba(0, 0, 0, 0.391);
+}
+
+.ScrollingAnimationCardsContainer>div:hover hr {
+    opacity: 1;
+    margin: 0px;
+    width: 100%;
+    transition: .5s;
+    border: 0.5px solid rgba(0, 0, 0, 0.391);
+}

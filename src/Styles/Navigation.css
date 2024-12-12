@@ -1,0 +1,40 @@
+.NavigationContainer {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 77;
+}
+
+.AnimatedNavigationBar {
+    height: 70px;
+    /* display: flex; */
+    /* align-items: center; */
+    max-width: 100%;
+    background-color: transparent;
+    margin: 0px 40px;
+    position: relative;
+}
+
+.ScrollToFillContainer {
+    background-color: white;
+    transition: height 0.1s ease-in-out;
+    width: 100%;
+    position: absolute;
+}
+
+.NavigationContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    height: 70px;
+    padding: 0px 20px;
+}
+
+.logoContainer img {
+    width: 200px;
+    position: sticky;
+    background: white;
+    padding: 10px;
+    z-index: 5555;
+}

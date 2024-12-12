@@ -1,0 +1,73 @@
+#FeaturesCardContainer {
+    /* width: 100%; */
+    margin: 0px 40px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.MainFeaturesContainer {
+    /* margin: 0px 40px; */
+    width: 100%;
+    /* width: 80%; */
+    background-color: white;
+    position: sticky;
+    z-index: 55;
+    margin-top: -6rem;
+}
+
+.CardContainer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+    position: relative;
+}
+
+.CardContainer hr {
+    width: 60%;
+    /* height: 1px; */
+    background-color: #b77733;
+    border: 0.5px solid #b77733;
+    opacity: 1;
+    position: absolute;
+    margin: 0px;
+    bottom: 0px;
+}
+
+.TitleContainer h4 {
+    text-align: center;
+    color: #626d86;
+}
+
+.TitleContainer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.CardContentContainer img {
+    width: 150px;
+    /* height: 300px; */
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.CardContainer:hover img {
+    width: 150px;
+    /* height: 300px; */
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.CardContentContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

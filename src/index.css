@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  height: 900vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #eef0f6;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.TransparentBtn {
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  color: #ffffff79;
+  padding: 13px 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: .5s;
+}
+
+.TransparentBtn:hover {
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.46);
+  padding: 13px 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+  transform: scale(1.03);
+  transition: .5s;
+  cursor: pointer;
+}
+
+/* Animation for the text */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%) translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
