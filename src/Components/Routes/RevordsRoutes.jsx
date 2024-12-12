@@ -7,6 +7,7 @@ import CompanyIntro from "../CompanyIntro/CompanyIntro";
 import WhyRevords from "../WhyRevords/WhyRevords";
 import RevordsParts from "../RevordsDevidedPart/RevordsPart";
 import OverlayImageContainer from "../CommonComponents/RevordsNavigation/OverlayImageContainer";
+import Footer from "../Footer/Footer";
 
 const RevordsRoutes = () => {
     return (
@@ -16,8 +17,9 @@ const RevordsRoutes = () => {
             <AboutRevords />
             <CompanyIntro/>
             <WhyRevords/>
-            <OverlayImageContainer/>
             <RevordsParts/>
+            <OverlayImageContainer/>
+            <Footer/>
         </>
     )
 }

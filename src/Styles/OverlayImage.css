@@ -1,5 +1,5 @@
 #BackImageOverlayContainer {
-    margin: 100px 0px;
+    margin: 0px 0px;
     margin-bottom: 0px !important;
 }
 
@@ -37,4 +37,12 @@
     width: 60%;
     text-align: center;
     color: white;
+}
+
+@media (max-width:769px){
+    .ContentContainerCommitment{
+        width: 98%;
+        text-align: center;
+        color: white;
+    }
 }

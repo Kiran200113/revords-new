@@ -33,7 +33,7 @@ const WhyRevords = () => {
                     <div>
                         <Row>
                             {CardsContent.map((item, index) => (
-                                <Col key={index} lg={8} md={12}>
+                                <Col key={index} lg={8} md={12} style={{width:"100%"}}>
                                     <div className="AnimatedCardContainer">
                                         <span>0{index + 1}</span>
                                         <div>

@@ -1,0 +1,20 @@
+
+.Footer{
+    padding: 100px 40px;
+    padding-bottom: 20px !important;
+}
+#ColumnsEdit{
+    display: flex;
+    justify-content: space-around;
+}
+.CopywriteAndPrivacy{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+}
+.CopywriteAndPrivacy a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}

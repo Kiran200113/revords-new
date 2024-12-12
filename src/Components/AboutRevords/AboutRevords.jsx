@@ -28,7 +28,7 @@ const AboutRevords = () => {
                 <div className="MainFeaturesContainer">
                     <Row>
                         {CardsData.map((item, index) => (
-                            <Col lg={6}>
+                            <Col lg={6} style={{width:"100%"}}>
                                 <div className="CardContainer">
                                     <div className="TitleContainer">
                                         <h4>{item.title}</h4>
