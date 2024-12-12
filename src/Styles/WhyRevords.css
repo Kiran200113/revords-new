@@ -4,7 +4,7 @@
 }
 
 .AnimatedCardContainer {
-    height: 300px;
+    min-height: 250px;
     /* width: 100%; */
     padding: 20px;
     border: 0.5px solid rgba(136, 158, 168, 0.2);
@@ -14,7 +14,7 @@
 }
 
 .AnimatedCardContainer:hover {
-    height: 300px;
+    min-height: 250px;
     /* width: 100%; */
     padding: 20px;
     border: 0.5px solid rgba(136, 158, 168, 0);
@@ -25,6 +25,18 @@
     transition: .5s;
     /* position: absolute; */
     /* background-color: red; */
+}
+.CardIconContainer{
+    display: flex;
+    justify-content: center;
+}
+.CardIconContainer img{
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.HeadingContainer h4{
+    text-align: center;
 }
 
 @media (max-width:769px) {
