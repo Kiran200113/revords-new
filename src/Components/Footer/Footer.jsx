@@ -9,13 +9,14 @@ const Footer = () => {
             <section id="FooterContainer">
                 <div className="Footer">
                     <Row>
-                        <Col lg={8}>
+                        <Col lg={16}>
                             <div>
                                 <img src={Revords} alt="" />
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid eos unde ut in! Dolor culpa neque deleniti doloremque sunt voluptatibus!</p>
+                                <p>One stop customer loyalty program that will turn your visitors in to happy and loyal customers by digitalizing your business reward program!
+                                </p>
                             </div>
                         </Col>
-                        <Col lg={16}>
+                        <Col lg={8}>
                             <div id="ColumnsEdit">
                                 <div>
                                     <h4>Company</h4>
@@ -23,11 +24,7 @@ const Footer = () => {
                                         <span>Contact Us</span>
                                     </div>
                                 </div>
-                                <div>
-                                    <h4>Social Media</h4>
-                                    <span>Demo</span>
-                                    <span>Demo</span>
-                                </div>
+                               
                             </div>
                         </Col>
                     </Row>
