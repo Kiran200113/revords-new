@@ -13,7 +13,7 @@ const HomePageRoutes = () => {
     const scrollToAboutUs = () => {
         if (aboutUsRef.current) {
             const screenWidth = window.innerWidth;
-    
+
             // Determine offset based on screen width
             let offset;
             if (screenWidth <= 768) {
@@ -23,10 +23,10 @@ const HomePageRoutes = () => {
             } else {
                 offset = -250; // PC
             }
-    
+
             const targetPosition =
                 aboutUsRef.current.getBoundingClientRect().top + window.scrollY - offset;
-    
+
             // Smooth scroll with calculated offset
             window.scrollTo({
                 top: targetPosition,
@@ -34,7 +34,7 @@ const HomePageRoutes = () => {
             });
         }
     };
-    
+
     return (
         <>
             <HeroHomePage scrollToAboutUs={scrollToAboutUs} />

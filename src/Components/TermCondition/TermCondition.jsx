@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../../Styles/TermCondition.css"
 import { Link } from "react-router-dom";
 const TermCondition = () => {
@@ -14,7 +14,7 @@ const TermCondition = () => {
 
                         <div className="CommitmentContainer">
                             <div className="ContentContainerCommitment">
-                                <h2>Terms & Condition</h2>
+                                <h2>Terms of Use Agreement for Revords LLC</h2>
                                 <p>
                                     <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link>&nbsp;&nbsp;/&nbsp;&nbsp;Terms & Condition
                                 </p>

@@ -4,6 +4,7 @@ import RevordsNavigation from "../CommonComponents/RevordsNavigation/RevordsNavi
 import Footer from "../Footer/Footer";
 import HomePageRoutes from "../HomePageRoutes";
 import TermCondition from "../TermCondition/TermCondition";
+import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
 
 const RevordsRoutes = () => {
     return (
@@ -12,6 +13,7 @@ const RevordsRoutes = () => {
             <Routes>
                 <Route path="/" element={<HomePageRoutes />} />
                 <Route path="/term&condition" element={<TermCondition />} />
+                <Route path="/privacy&policy" element={<PrivacyPolicy />} />
             </Routes>
             <Footer />
         </>

@@ -34,7 +34,7 @@ const Footer = () => {
                             <p> © 2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions</Link>. All rights reserved.</p>
                         </div>
                         <div>
-                            <span><Link to="/term&condition">Terms & Conditions</Link></span>&nbsp;&nbsp;&nbsp;<span>Privacy Policy</span>
+                            <span><Link to="/term&condition">Terms & Conditions</Link></span>&nbsp;&nbsp;&nbsp;<span><Link to="/privacy&policy">Privacy Policy</Link></span>
                         </div>
                     </div>
                 </div>
