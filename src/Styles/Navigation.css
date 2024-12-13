@@ -1,61 +1,122 @@
 .NavigationContainer {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 77;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 77;
 }
 
 .AnimatedNavigationBar {
+  height: 70px;
+  /* display: flex; */
+  /* align-items: center; */
+  max-width: 100%;
+  background-color: transparent;
+  margin: 0px 40px;
+  position: relative;
+}
+
+.ScrollToFillContainer {
+  background-color: white;
+  transition: height 0.1s ease-in-out;
+  width: 100%;
+  position: absolute;
+}
+
+.NavigationContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  height: 70px;
+  padding: 0px 20px;
+}
+
+.logoContainer img {
+  width: 200px;
+  position: sticky;
+  background: white;
+  padding: 10px;
+  z-index: 5555;
+}
+.demo-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-field label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-field input {
+  padding: 0.5rem ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-field input.input-error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.submit-btn {
+  background-color: #b77733;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #9a652a;
+}
+.NavigationContactUsBtn .CommonBtnContainer .TransparentBtn{
+    z-index: 1000;
+    color: black;
+    border-color: black;
+}
+@media (max-width: 900px) {
+  .AnimatedNavigationBar {
     height: 70px;
     /* display: flex; */
     /* align-items: center; */
     max-width: 100%;
     background-color: transparent;
-    margin: 0px 40px;
+    margin: 0px 0px;
     position: relative;
-}
-
-.ScrollToFillContainer {
-    background-color: white;
-    transition: height 0.1s ease-in-out;
-    width: 100%;
-    position: absolute;
-}
-
-.NavigationContent {
+  }
+  .NavigationContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* width: 100%; */
     height: 70px;
-    padding: 0px 20px;
-}
-
-.logoContainer img {
-    width: 200px;
-    position: sticky;
-    background: white;
-    padding: 10px;
-    z-index: 5555;
-}
-
-@media (max-width:900px){
-    .AnimatedNavigationBar {
-        height: 70px;
-        /* display: flex; */
-        /* align-items: center; */
-        max-width: 100%;
-        background-color: transparent;
-        margin: 0px 0px;
-        position: relative;
-    }
-    .NavigationContent {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* width: 100%; */
-        height: 70px;
-        padding: 0px 0px;
-    }
-    
+    padding: 0px 0px;
+  }
 }

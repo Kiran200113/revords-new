@@ -63,3 +63,10 @@ h6 {
     opacity: 1;
   }
 }
+label{
+  font-family: "Montserrat", sans-serif;
+}
+.ant-modal-title{
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}

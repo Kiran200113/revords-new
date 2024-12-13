@@ -2,7 +2,11 @@ import React from "react";
 import "../../Styles/TermCondition.css"
 import { Link } from "react-router-dom";
 const TermCondition = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
+
         <>
             <section className="TermConditionComponent">
                 <div className="TermConditionContainerContent">
