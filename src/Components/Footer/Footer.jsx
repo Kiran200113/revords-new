@@ -2,6 +2,7 @@ import React from "react";
 import "../../Styles/Footer.css"
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
+import Revords from "/Images/Revords.png"
 const Footer = () => {
     return (
         <>
@@ -10,7 +11,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={8}>
                             <div>
-                                <h4>Revords</h4>
+                                <img src={Revords} alt="" />
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid eos unde ut in! Dolor culpa neque deleniti doloremque sunt voluptatibus!</p>
                             </div>
                         </Col>
@@ -36,7 +37,7 @@ const Footer = () => {
                             <p> © 2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions</Link>. All rights reserved.</p>
                         </div>
                         <div>
-                            <span>Terms & Conditions</span>&nbsp;&nbsp;&nbsp;<span>Privacy Policy</span>
+                            <span><Link to="/term&condition">Terms & Conditions</Link></span>&nbsp;&nbsp;&nbsp;<span>Privacy Policy</span>
                         </div>
                     </div>
                 </div>

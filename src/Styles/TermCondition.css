@@ -1,0 +1,28 @@
+.TopImageContainer{
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.TopImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ContentBody{
+    padding: 100px 40px;
+    padding-bottom: 30px !important;
+}
+.ContentBody p{
+    text-transform:none;
+}
+.ContentBody ul li{
+    font-size: 14px;
+}
+
+@media (max-width:769px){
+    .ContentBody{
+        padding: 100px 10px;
+        padding-bottom: 30px !important;
+    }
+}

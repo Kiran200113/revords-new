@@ -48,10 +48,10 @@ const HeroHomePage = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // }}
                 // pagination={{
                 //     clickable: true,
                 // }}
@@ -66,7 +66,7 @@ const HeroHomePage = () => {
                     <SwiperSlide key={index}>
                         <div className="CarousalImageContainer">
                             <div className="HeroHomePageOverlayContainer"></div>
-                            <img src={item.img} alt="" />
+                            <img src={item.img} alt="" class="zoom-effect"/>
                             <div className="CarousalContentContainer">
                                 <div>
                                     <div className="CarousalText"><h3>{item.text}</h3></div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../../Styles/Navigation.css"
-import Revords from "../../../../public/Revords.png"
+import Revords from "/Images/Revords.png"
+import { Link } from "react-router-dom";
 const RevordsNavigation = () => {
     const [scrollHeight, setScrollHeight] = useState(0);
 
@@ -26,7 +27,7 @@ const RevordsNavigation = () => {
                     </div>
                     <div className="NavigationContent">
                         <div className="logoContainer">
-                            <img src={Revords} alt="" />
+                            <Link to="/">  <img src={Revords} alt="" /></Link>
                         </div>
                         <div className="NavigationContactUsBtn">
 

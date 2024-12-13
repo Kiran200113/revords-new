@@ -12,7 +12,7 @@ const WhyRevords = () => {
     const CardsContent = [
         {
             title: "Simplified customer enrollment",
-            image:Simplifiedcustomer
+            image: Simplifiedcustomer
         },
         {
             title: "Multiple ways of earning points for customers",

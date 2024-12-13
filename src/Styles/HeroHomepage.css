@@ -8,6 +8,7 @@
 .CarousalImageContainer {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .CarousalImageContainer img {
@@ -91,4 +92,60 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.zoom-effect {
+    animation: zoomInOut 8s infinite;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.04); /* Adjust the scale factor for zoom-in */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+@media (max-width:769px){
+    #HeroHomePageContainer .mySwiper .swiper-button-next {
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 80px 0px 0px 80px;
+        right: -2px !important;
+        color: white !important;
+    }
+    #HeroHomePageContainer .mySwiper .swiper-button-prev {
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 0px 80px 80px 0px;
+        left: -2px !important;
+        color: white !important;
+        transition: .5s;
+    }
+    .CarousalContentContainer {
+        position: absolute;
+        /* bottom: 10%; */
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+        opacity: 0;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: slideIn 1.5s ease-in-out forwards;
+    }
+    
+    .CarousalText h3{
+        text-align: center;
+    }
+    
 }

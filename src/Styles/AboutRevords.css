@@ -80,5 +80,16 @@
         display: flex;
         justify-content: center;
     }
+    .MainFeaturesContainer {
+        /* margin: 0px 40px; */
+        width: 100%;
+        /* width: 80%; */
+        background-color: white;
+        position: sticky;
+        z-index: 55;
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+    
     
 }

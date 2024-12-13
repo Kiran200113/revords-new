@@ -56,6 +56,9 @@
 }
 
 @media (max-width:769px){
+    .CompanyInfoContent h2 {
+        font-size: 30px;
+    }
     .CompanyInfoContent {
         padding-right: 0px;
         height: 100%;
@@ -64,7 +67,7 @@
     
     }
     .SectionStyle {
-        margin: 100px 10px;
+        margin: 70px 10px;
         margin-bottom: 0px !important;
     }
     

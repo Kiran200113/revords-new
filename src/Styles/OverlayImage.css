@@ -45,4 +45,9 @@
         text-align: center;
         color: white;
     }
+    .OverlayImageContainer {
+        position: relative;
+        height: 50vh;
+        overflow: hidden;
+    }
 }
