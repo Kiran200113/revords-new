@@ -11,7 +11,7 @@ import JoinUstoday from "/Images/JoinUstoday.png"
 import DiscoverBusiness from "/Images/DiscoverBusiness.png"
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const HeroHomePage = () => {
+const HeroHomePage = ({ scrollToAboutUs }) => {
     const carousalData = [
         {
             img: WelcomeRevords,
@@ -74,7 +74,7 @@ const HeroHomePage = () => {
                                 <div>
                                     <div className="CarousalText"><h3>{item.text}</h3></div>
                                     <div className="CommonBtnContainer">
-                                        <button className="TransparentBtn">About Revords</button>
+                                        <button className="TransparentBtn"  onClick={scrollToAboutUs}>About Revords</button>
                                     </div>
                                 </div>
                             </div>
