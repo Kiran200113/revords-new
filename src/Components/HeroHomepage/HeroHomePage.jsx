@@ -6,16 +6,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import WelcomeRevords from "/Images/HomeBack.png"
+import JoinUstoday from "/Images/JoinUstoday.png"
+import DiscoverBusiness from "/Images/DiscoverBusiness.png"
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const HeroHomePage = () => {
     const carousalData = [
         {
-            img: "https://plus.unsplash.com/premium_photo-1728596880369-b25be3c6dcbf?q=80&w=3067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: WelcomeRevords,
             text: "Welcome to Revords",
         },
         {
-            img: "https://plus.unsplash.com/premium_photo-1661691874299-e8ba006e1645?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: DiscoverBusiness,
             text: "Discover Amazing Services",
         },
         {
@@ -23,7 +26,7 @@ const HeroHomePage = () => {
             text: "Create Your Own Success Story",
         },
         {
-            img: "https://plus.unsplash.com/premium_photo-1661454577337-7738fd3dd478?q=80&w=3092&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: JoinUstoday,
             text: "Join Us Today!",
         },
     ];
@@ -66,7 +69,7 @@ const HeroHomePage = () => {
                     <SwiperSlide key={index}>
                         <div className="CarousalImageContainer">
                             <div className="HeroHomePageOverlayContainer"></div>
-                            <img src={item.img} alt="" class="zoom-effect"/>
+                            <img src={item.img} alt="" class="zoom-effect" />
                             <div className="CarousalContentContainer">
                                 <div>
                                     <div className="CarousalText"><h3>{item.text}</h3></div>
