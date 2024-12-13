@@ -98,8 +98,8 @@
 }
 .NavigationContactUsBtn .CommonBtnContainer .TransparentBtn{
     z-index: 1000;
-    color: black;
-    border-color: black;
+    color: #b77733;
+    border-color: #b77733;
 }
 @media (max-width: 900px) {
   .AnimatedNavigationBar {
