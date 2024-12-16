@@ -1,30 +1,27 @@
 import React from "react";
 import "../../Styles/HotspotGaming.css";
-import { Row, Col } from 'antd';
+import { Row, Col, Image } from 'antd';
 import { Link } from "react-router-dom";
 const HotspotGaming = () => {
     return (
         <>
 
             <section id="CompanyPageBannerContainer">
+                <div className="CompanyBanner">
+
+                    <div className="companyImage">
+                        <img src="/Images/Hot Spot Logo.png" />
+                    </div>
+
+                    <div className="companyDetails">
+                        <h3>Hot spot Gaming</h3>
+                        <p>Cafe & Lounge</p>
+                    </div>
+
+                </div>
             </section>
             <section id="CompanyPage" className="SectionStyle">
-                <div className="CompanyBanner">
-                    <Row>
-                        <Col lg={4} xs={12}>
-                            <div className="companyImage">
-                                <img src="/Images/Hot Spot Logo.png" />
-                            </div>
-                        </Col>
-                        <Col lg={1} xs={1} />
-                        <Col lg={19} xs={11}>
-                            <div className="companyDetails">
-                                <h3>Hot&nbsp;spot&nbsp;Gaming</h3>
-                                <h4>Cafe & Lounge</h4>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
+
                 <Row>
                     <Col lg={12}>
                         <div className="leftSideDetailsContainer">
@@ -43,14 +40,25 @@ const HotspotGaming = () => {
                                 <li>Saturday:&nbsp;9:00AM to 2:00AM</li>
                                 <li>Sunday:&nbsp;9:00AM to 2:00AM</li>
                             </ul>
+                            <div>
+                                <p><b>Legal</b></p>
+                               <div>
+                               <p><a href="/Images/Hot Spot Gaming Cafe LLC Terms And Conditions.pdf" target="_blank">Terms & Conditions
+                               </a></p>
+                               <p> <a href="/Images/Hot Spot Gaming Cafe - Privacy Policy.pdf" target="_blank">Privacy Policy
+                               </a></p>
+                               </div>
+                            </div>
                         </div>
                     </Col>
                     <Col lg={12}>
                         <div className="rightSideImageContainer">
-                            <img src="/Images/Hot Spot Cafe - inside.png" />
+                            <Image src="/Images/Hot Spot Cafe - inside.png" />
+                            <Image src="/Images/Hot Spot Cafe - outside ( Copy ).jpg" alt="" />
                         </div>
                     </Col>
                 </Row>
+
             </section>
         </>
     )

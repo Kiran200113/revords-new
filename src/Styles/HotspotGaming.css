@@ -1,43 +1,86 @@
 #CompanyPageBannerContainer {
-  position: relative; /* Make the container a positioning context */
+  position: relative;
+  /* Make the container a positioning context */
   height: 50vh;
   width: 100%;
   background-color: #21303b;
   margin-top: 70px;
 }
 
-.companyImage img {
-  width: 100%;
-  height: 100%;
+#CompanyPage {
+  margin-bottom: 2rem !important;
 }
+
+.CompanyBanner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.companyImage img {
+  width: 250px;
+  /* height: 100%; */
+}
+
 .companyDetails {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 1rem;
 }
-.companyDetails h3,
-h4 {
-  margin: 0;
-  padding: 10px 0;
+
+.companyDetails h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
 }
 
-.leftSideDetailsContainer p,
-li {
-  font-size: 20px;
+.companyDetails p {
+  text-align: center;
+  color: white;
+  margin: 0px;
 }
-.rightSideImageContainer img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 3/2;
-  object-fit: contain;
+
+.rightSideImageContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-@media (max-width: 769px) {
-  .leftSideDetailsContainer p,
-  li {
-    font-size: 18px;
-  }
-  #CompanyPageBannerContainer {
-    height: 30vh;
+
+.rightSideImageContainer .ant-image {
+  width: 60%;
+  margin: 20px 0px;
+  transition: .5s;
+}
+
+.rightSideImageContainer .ant-image:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.leftSideDetailsContainer h1 {
+  color: #b77733;
+}
+
+.leftSideDetailsContainer ul li {
+  margin: 20px 0px;
+}
+
+.leftSideDetailsContainer {
+  position: sticky;
+  top: 30%;
+}
+
+@media (max-width:769px){
+  .rightSideImageContainer .ant-image {
+    width: 100%;
+    margin: 20px 0px;
+    transition: .5s;
   }
 }
