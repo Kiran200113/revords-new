@@ -7,7 +7,7 @@
   align-items: center;
 }
 .ClientCardContainer img {
-  width: 100%;
+  width: 70%;
   object-fit: contain;
   aspect-ratio: 3/2;
   padding: 20px;
