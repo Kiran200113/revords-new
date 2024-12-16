@@ -24,11 +24,13 @@ const AboutRevords = () => {
     ]
     return (
         <>
-            <section id="FeaturesCardContainer">
+            <section id="FeaturesCardContainer" className="SectionStyle">
+                <h2 className="sectionHeading">What do you get with REVORDS?</h2>
                 <div className="MainFeaturesContainer">
+
                     <Row>
                         {CardsData.map((item, index) => (
-                            <Col lg={6} style={{width:"100%"}}>
+                            <Col lg={6} style={{ width: "100%" }}>
                                 <div className="CardContainer">
                                     <div className="TitleContainer">
                                         <h4>{item.title}</h4>

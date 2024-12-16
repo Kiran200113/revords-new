@@ -15,9 +15,6 @@
     object-fit: cover;
 }
 
-.CompanyInfoContent h2 {
-    font-size: 42px;
-}
 
 .CompanyInfoContent {
     padding-right: 100px;
@@ -56,9 +53,7 @@
 }
 
 @media (max-width:769px){
-    .CompanyInfoContent h2 {
-        font-size: 30px;
-    }
+    
     .CompanyInfoContent {
         padding-right: 0px;
         height: 100%;

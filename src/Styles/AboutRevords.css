@@ -1,8 +1,10 @@
 #FeaturesCardContainer {
     /* width: 100%; */
-    margin: 0px 40px;
-    min-height: 30vh;
+    /* margin: 100px 40px; */
+    height: 100%;
+    /* min-height: 30vh; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -13,7 +15,8 @@
     background-color: white;
     position: sticky;
     z-index: 55;
-    margin-top: -6rem;
+    padding-bottom: 2.5rem;
+    /* margin-top: -6rem; */
 }
 
 .CardContainer {
@@ -75,7 +78,7 @@
 @media (max-width:769px){
     #FeaturesCardContainer {
         /* width: 100%; */
-        margin: 0px 10px;
+        /* margin: 0px 10px; */
         min-height: 30vh;
         display: flex;
         justify-content: center;

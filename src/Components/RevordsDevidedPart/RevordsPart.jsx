@@ -29,8 +29,8 @@ const RevordsParts = () => {
                     <Row>
                         <Col lg={10}>
                             <div className="CompanyDetailsContainer">
-                                    <h2>What Sets Us Apart</h2>
-                                    <p>At Revords, we redefine the customer experience by merging innovative solutions with a deep understanding of business needs. Our platform isn’t just a tool it’s a partner in your success.</p>
+                                <h2>What Sets Us Apart</h2>
+                                <p>At Revords, we redefine the customer experience by merging innovative solutions with a deep understanding of business needs. Our platform isn’t just a tool it’s a partner in your success.</p>
                             </div>
                         </Col>
                         <Col lg={14}>

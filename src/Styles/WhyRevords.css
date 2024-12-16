@@ -1,47 +1,35 @@
-#WhyRevordsContainer {
-    margin: 100px 40px;
-    margin-bottom: 0px !important;
-}
-
 .AnimatedCardContainer {
-    min-height: 250px;
-    /* width: 100%; */
-    padding: 20px;
-    border: 0.5px solid rgba(136, 158, 168, 0.2);
-    /* background-color: red; */
-    background-color: #eef0f6;
-    transition: .5s;
+  min-height: 250px;
+  /* width: 100%; */
+  padding: 20px;
+  border: 0.5px solid rgba(136, 158, 168, 0.2);
+  /* background-color: red; */
+  background-color: #eef0f6;
+  transition: 0.5s;
 }
 
 .AnimatedCardContainer:hover {
-    min-height: 250px;
-    /* width: 100%; */
-    padding: 20px;
-    border: 0.5px solid rgba(136, 158, 168, 0);
-    background-color: white;
-    transform: scale(1.03);
-    position: sticky;
-    z-index: 55;
-    transition: .5s;
-    /* position: absolute; */
-    /* background-color: red; */
+  min-height: 250px;
+  /* width: 100%; */
+  padding: 20px;
+  border: 0.5px solid rgba(136, 158, 168, 0);
+  background-color: white;
+  transform: scale(1.03);
+  position: sticky;
+  z-index: 55;
+  transition: 0.5s;
+  /* position: absolute; */
+  /* background-color: red; */
 }
-.CardIconContainer{
-    display: flex;
-    justify-content: center;
+.CardIconContainer {
+  display: flex;
+  justify-content: center;
 }
-.CardIconContainer img{
-    width: 50%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+.CardIconContainer img {
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
-.HeadingContainer h4{
-    text-align: center;
-}
-
-@media (max-width:769px) {
-    #WhyRevordsContainer {
-        margin: 100px 10px;
-        margin-bottom: 0px !important;
-    }
+.HeadingContainer h4 {
+  text-align: center;
 }

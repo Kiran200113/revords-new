@@ -55,7 +55,9 @@
         padding: 70px 10px;
         background-color: white;
     }
-
+    .ScrollingAnimationCardsContainer>div{
+        padding: 20px 0;
+    }
 
 
 }

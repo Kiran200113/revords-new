@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Row, Col,Tabs } from "antd";
+import { Row, Col, Tabs } from "antd";
 import "../../Styles/CompanyIntro.css";
 
 const { TabPane } = Tabs;
@@ -36,7 +36,7 @@ const CompanyIntro = () => {
             <div className="CompanyInfoContent">
               <div>
                 <div>
-                  <h2>ABOUT REVORDS</h2>
+                  <h2 className="sectionHeading">ABOUT REVORDS</h2>
                   <p>
                     Revords is created and developed by local business owners who
                     carry deep understandings of the dynamic needs of local
@@ -49,24 +49,24 @@ const CompanyIntro = () => {
                   </p>
                 </div>
                 <div className="VMContainer">
-                <Tabs defaultActiveKey="1" centered>
-                <TabPane tab="Our Mission" key="1">
-                    <p>
+                  <Tabs defaultActiveKey="1" centered>
+                    <TabPane tab="Our Mission" key="1">
+                      <p>
                         Our mission is to revolutionize the way businesses engage with their customers by offering a comprehensive and user-friendly loyalty software platform.
-                    </p>
-                    <p>
+                      </p>
+                      <p>
                         We strive to empower businesses to create personalized and rewarding experiences that foster customer retention, satisfaction, and brand advocacy.
-                    </p>
-                </TabPane>
-                <TabPane tab="Our Vision" key="2">
-                    <p>
+                      </p>
+                    </TabPane>
+                    <TabPane tab="Our Vision" key="2">
+                      <p>
                         We envision a future where businesses can effortlessly connect with their customers, understand their needs, and provide tailored rewards and experiences that inspire long-term loyalty.
-                    </p>
-                    <p>
+                      </p>
+                      <p>
                         Through our advanced technology and customer-centric approach, we aim to be the driving force behind customer loyalty strategies that lead to sustainable growth and success.
-                    </p>
-                </TabPane>
-            </Tabs>
+                      </p>
+                    </TabPane>
+                  </Tabs>
                 </div>
               </div>
             </div>

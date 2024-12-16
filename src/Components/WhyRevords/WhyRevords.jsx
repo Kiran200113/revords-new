@@ -37,11 +37,9 @@ const WhyRevords = () => {
     ]
     return (
         <>
-            <section id="WhyRevordsContainer">
+            <section id="WhyRevordsContainer" className="SectionStyle">
                 <div>
-                    <div>
-
-                    </div>
+                    <h2 className="sectionHeading">Why Revords?</h2>
                     <div>
                         <Row>
                             {CardsContent.map((item, index) => (
