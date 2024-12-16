@@ -1,10 +1,10 @@
 #CompanyPageBannerContainer {
   position: relative;
   /* Make the container a positioning context */
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   background-color: #21303b;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 #CompanyPage {

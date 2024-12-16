@@ -4,7 +4,7 @@ import Revords from "/Images/Revords.png"
 import { Link } from "react-router-dom";
 import { Modal } from "antd";
 const RevordsNavigation = () => {
-    const [scrollHeight, setScrollHeight] = useState(0);
+    const [scrollHeight, setScrollHeight] = useState(70);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [formData, setFormData] = useState({
         name: "",
@@ -87,7 +87,7 @@ const RevordsNavigation = () => {
         <>
             <section className="NavigationContainer">
                 <div className="AnimatedNavigationBar">
-                    <div className="ScrollToFillContainer" style={{ height: `${scrollHeight}px` }}>
+                    <div className="ScrollToFillContainer" style={{ height:'70px' }}>
 
                     </div>
                     <div className="NavigationContent">

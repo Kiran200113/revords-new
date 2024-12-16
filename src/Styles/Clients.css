@@ -1,20 +1,23 @@
 .OurClients {
   background-color: #eef0f6 !important;
 }
+
 .ClientCardContainer {
   width: 100%;
   display: flex;
   align-items: center;
 }
+
 .ClientCardContainer img {
   width: 70%;
   object-fit: contain;
   aspect-ratio: 3/2;
   padding: 20px;
 }
+
 @media (max-width:769px) {
-    .ClientCardContainer img{
-        padding:10px 0;
-        width: 100%;
-    }
+  .ClientCardContainer img {
+    padding: 10px 0;
+    width: 100%;
+  }
 }
