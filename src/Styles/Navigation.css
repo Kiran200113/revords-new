@@ -99,8 +99,8 @@
 }
 .NavigationContactUsBtn .CommonBtnContainer .TransparentBtn {
   z-index: 1000;
-  color: white;
-  border-color: white;
+  color: rgb(33, 48, 59);
+  border-color: rgb(33, 48, 59);
   font-size: 13px;
   letter-spacing: 0;
   font-weight: 500;

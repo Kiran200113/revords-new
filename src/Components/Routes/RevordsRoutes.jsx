@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import HomePageRoutes from "../HomePageRoutes";
 import TermCondition from "../TermCondition/TermCondition";
 import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
+import HotspotGaming from "../CompanyPage/HotspotGaming";
 
 const RevordsRoutes = () => {
     return (
@@ -14,6 +15,7 @@ const RevordsRoutes = () => {
                 <Route path="/" element={<HomePageRoutes />} />
                 <Route path="/term&condition" element={<TermCondition />} />
                 <Route path="/privacy&policy" element={<PrivacyPolicy />} />
+                <Route path="/hotspotgaming" element={<HotspotGaming />} />
             </Routes>
             <Footer />
         </>

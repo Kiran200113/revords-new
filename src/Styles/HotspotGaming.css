@@ -1,0 +1,43 @@
+#CompanyPageBannerContainer {
+  position: relative; /* Make the container a positioning context */
+  height: 50vh;
+  width: 100%;
+  background-color: #21303b;
+  margin-top: 70px;
+}
+
+.companyImage img {
+  width: 100%;
+  height: 100%;
+}
+.companyDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.companyDetails h3,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.leftSideDetailsContainer p,
+li {
+  font-size: 20px;
+}
+.rightSideImageContainer img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+@media (max-width: 769px) {
+  .leftSideDetailsContainer p,
+  li {
+    font-size: 18px;
+  }
+  #CompanyPageBannerContainer {
+    height: 30vh;
+  }
+}
