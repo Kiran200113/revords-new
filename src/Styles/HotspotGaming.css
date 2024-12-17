@@ -18,10 +18,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
 }
 
 .companyImage img {
-  width: 250px;
+  width: 90%;
   /* height: 100%; */
 }
 
@@ -75,6 +78,16 @@
 .leftSideDetailsContainer {
   position: sticky;
   top: 30%;
+}
+
+.bannerImage img {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
 }
 
 @media (max-width:769px) {

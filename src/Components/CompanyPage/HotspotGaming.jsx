@@ -8,16 +8,20 @@ const HotspotGaming = () => {
 
             <section id="CompanyPageBannerContainer">
                 <div className="CompanyBanner">
-
-                    <div className="companyImage">
-                        <img src="/Images/Hot Spot Logo.png" />
+                    <div className="bannerImage">
+                        <img src="https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
+                    <div style={{ position: "sticky" }}>
+                        <div className="companyImage">
+                            <img src="/Images/Hot Spot Logo.png" />
+                        </div>
 
-                    <div className="companyDetails">
-                        <h3>Hot spot Gaming</h3>
-                        <p>Cafe & Lounge</p>
+                        <div className="companyDetails">
+                            <h3>Hot spot Gaming</h3>
+                            <p>Cafe & Lounge</p>
+                        </div>
+
                     </div>
-
                 </div>
             </section>
             <section id="CompanyPage" className="SectionStyle">
@@ -42,12 +46,12 @@ const HotspotGaming = () => {
                             </ul>
                             <div>
                                 <p><b>Legal</b></p>
-                               <div>
-                               <p><a href="/Images/Hot Spot Gaming Cafe LLC Terms And Conditions.pdf" target="_blank">Terms & Conditions
-                               </a></p>
-                               <p> <a href="/Images/Hot Spot Gaming Cafe - Privacy Policy.pdf" target="_blank">Privacy Policy
-                               </a></p>
-                               </div>
+                                <div>
+                                    <p><a href="/Images/Hot Spot Gaming Cafe LLC Terms And Conditions.pdf" target="_blank">Terms & Conditions
+                                    </a></p>
+                                    <p> <a href="/Images/Hot Spot Gaming Cafe - Privacy Policy.pdf" target="_blank">Privacy Policy
+                                    </a></p>
+                                </div>
                             </div>
                         </div>
                     </Col>
