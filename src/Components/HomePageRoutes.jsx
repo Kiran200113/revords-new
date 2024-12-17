@@ -8,6 +8,7 @@ import RevordsParts from "../Components/RevordsDevidedPart/RevordsPart";
 import OverlayImageContainer from "./CommonComponents/RevordsNavigation/OverlayImageContainer";
 import Clients from "./Clients/Clients";
 import HowItWorks from "./HowItWorks/HowItWorks";
+import ContactUs from "./ContactUs/ContactUs";
 
 const HomePageRoutes = () => {
     // const aboutUsRef = useRef(null);
@@ -52,6 +53,7 @@ const HomePageRoutes = () => {
 
             <Clients />
             <OverlayImageContainer />
+            <ContactUs/>
         </>
     );
 };
