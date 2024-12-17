@@ -40,7 +40,11 @@ const HowItWorks = () => {
                 <div className="OverlayContainer">
 
                 </div>
-                <h2 className="sectionHeading" style={{ position: "sticky", marginTop: "0px" }}>How it Works?</h2>
+                <div style={{ position: "sticky" }}>
+                    <h2 className="sectionHeading" style={{  marginTop: "0px" }}>How it Works?</h2>
+                    <p>Revords is a powerful marketing platform designed to drive more customers to your store by combining automated rewards and promotions with effective communication strategies. <br /> Revords: Your Secret Weapon for Customer Engagement Tired of chasing loyalty? Revords automates it!</p>
+            
+                </div>
                 <div>
                     <Row>
                         {HowItWorksData.map((item, index) => (
@@ -50,9 +54,9 @@ const HowItWorks = () => {
 
                                     <div key={index} style={{ marginBottom: "50px" }}>
                                         <div style={{ display: "flex", alignItems: "center" }}>
-                                            <MdOutlineDoneAll style={{ marginRight: "20px", backgroundColor: "#b77733", color: "white", borderRadius: "50%", padding: "4px" }} /><h4 style={{fontSize:"15px"}}>{item.title}</h4>
+                                            <MdOutlineDoneAll style={{ marginRight: "20px", backgroundColor: "#b77733", color: "white", borderRadius: "50%", padding: "4px" }} /><h4 style={{ fontSize: "15px" }}>{item.title}</h4>
                                         </div>
-                                        <ul style={{marginTop:"0px"}}>
+                                        <ul style={{ marginTop: "0px" }}>
                                             {item.points.map((point, idx) => (
                                                 <li key={idx}>{point}</li>
                                             ))}
