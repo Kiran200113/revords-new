@@ -50,9 +50,9 @@ const HowItWorks = () => {
 
                                     <div key={index} style={{ marginBottom: "50px" }}>
                                         <div style={{ display: "flex", alignItems: "center" }}>
-                                            <MdOutlineDoneAll style={{  marginRight: "20px", backgroundColor: "#b77733", color: "white", borderRadius: "50%", padding: "4px" }} /><h4>{item.title}</h4>
+                                            <MdOutlineDoneAll style={{ marginRight: "20px", backgroundColor: "#b77733", color: "white", borderRadius: "50%", padding: "4px" }} /><h4 style={{fontSize:"15px"}}>{item.title}</h4>
                                         </div>
-                                        <ul>
+                                        <ul style={{marginTop:"0px"}}>
                                             {item.points.map((point, idx) => (
                                                 <li key={idx}>{point}</li>
                                             ))}
