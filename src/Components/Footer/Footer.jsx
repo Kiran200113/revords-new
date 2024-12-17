@@ -21,10 +21,10 @@ const Footer = () => {
                                 <div>
                                     <h4>Company</h4>
                                     <div>
-                                        <span>Contact Us</span>
+                                        <Link to="/" style={{ color: "black" }}><span>Contact Us</span></Link>
                                     </div>
                                 </div>
-                               
+
                             </div>
                         </Col>
                     </Row>
