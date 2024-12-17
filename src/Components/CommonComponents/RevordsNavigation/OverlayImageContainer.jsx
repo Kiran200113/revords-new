@@ -35,11 +35,11 @@ const OverlayImageContainer = () => {
                         <div className="ContentContainerCommitment">
                             <h3>Our Commitment</h3>
                             <p>
-                            Revords, we are committed to delivering excellence and helping
-businesses create exceptional customer experiences. Revords
-understands the significance of customer loyalty in today's competitive
-landscape and aims to be your trusted partner in cultivating lasting
-relationships withs your valuable customers.
+                                Revords, we are committed to delivering excellence and helping
+                                businesses create exceptional customer experiences. Revords
+                                understands the significance of customer loyalty in today's competitive
+                                landscape and aims to be your trusted partner in cultivating lasting
+                                relationships withs your valuable customers.
                             </p>
                         </div>
                     </div>

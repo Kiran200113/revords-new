@@ -7,6 +7,7 @@ import WhyRevords from "../Components/WhyRevords/WhyRevords";
 import RevordsParts from "../Components/RevordsDevidedPart/RevordsPart";
 import OverlayImageContainer from "./CommonComponents/RevordsNavigation/OverlayImageContainer";
 import Clients from "./Clients/Clients";
+import HowItWorks from "./HowItWorks/HowItWorks";
 
 const HomePageRoutes = () => {
     // const aboutUsRef = useRef(null);
@@ -41,9 +42,12 @@ const HomePageRoutes = () => {
             />
             <WhyRevords />
             {/* <div ref={aboutUsRef}> */}
+           
             <AboutRevords />
+            <HowItWorks/>
             {/* </div> */}
             <CompanyIntro />
+    
             <RevordsParts />
 
             <Clients />

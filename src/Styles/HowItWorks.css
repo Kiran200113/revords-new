@@ -1,0 +1,42 @@
+#HowItWorks {
+    padding: 100px 40px;
+    /* padding-bottom: 0px !important; */
+    background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+}
+
+.LeftSideImage img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LeftSideImage {
+    height: 100%;
+    width: 100%;
+
+}
+
+.OverlayContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+.ProcessContainers {
+    padding: 30px;
+}
+
+@media (max-width:769px){
+    .ProcessContainers {
+        padding: 0px;
+    }
+}
