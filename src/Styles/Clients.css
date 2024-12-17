@@ -1,23 +1,41 @@
-.OurClients {
-  background-color: #eef0f6 !important;
+#OurClients {
+  background-color: #21303b !important;
+  padding: 100px 40px;
+color: white;
 }
-
 .ClientCardContainer {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .ClientCardContainer img {
-  width: 70%;
+  width: 250px;
   object-fit: contain;
   aspect-ratio: 3/2;
   padding: 20px;
+}
+.LocationImage .ant-image{
+  width: 50%;
+}
+#OurClients{
+  text-align: center;
 }
 
 @media (max-width:769px) {
   .ClientCardContainer img {
     padding: 10px 0;
     width: 100%;
+  }
+  .LocationImage .ant-image{
+    width: 100%;
+  }
+  .SecondColumn{
+    padding-top: 3rem;
+  }
+  .SecondColumn h2{
+    margin-bottom: 0px;
   }
 }
