@@ -275,7 +275,48 @@ export const BusinessPageData = [
                 </div>
             </div>
         </>
-    }
+    },
+    {
+        slug: "vipcafe",
+        bannertitle: "VIP's",
+        bannerTagline: 'Cafe & lounge',
+        businessLogo: "/Images/VIP's Cafe - Logo.png",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About VIP's Cafe",
+        businessImages: [
+            "/Images/VIP's Cafe - outside 1.jpg",
+            "/Images/VIP's Cafe inside.png",
+        ],
+        descriptionData: <>
+            <p>VIP's Cafe is a welcoming venue providing a comfortable and secure atmosphere where guests can unwind, enjoy drinks, and indulge in a variety of light snacks and tasty food. A laid-back place to relax, connect, and enjoy great company in a modern, friendly setting.
+            </p>
+            <p><b>Address:&nbsp;</b>48 E 34th Street, Steger, IL 60475
+
+            </p>
+            <p><b>Phone:</b><Link to="tel:7082539055">&nbsp;(708)-253-9055
+
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Tuesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Wednesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Thursday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Friday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Saturday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Sunday:&nbsp;09:00AM to 02:00AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/VIPCafeTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/VIPCafePrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
 
 
 ];
