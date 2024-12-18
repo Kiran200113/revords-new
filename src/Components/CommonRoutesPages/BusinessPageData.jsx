@@ -317,6 +317,82 @@ export const BusinessPageData = [
             </div>
         </>
     },
-
-
+    {
+        slug: "aztecamexican",
+        bannertitle: "AZTECA",
+        bannerTagline: 'MEXICAN GRILL',
+        businessLogo: "/Images/Azteca - logo.jpg",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Azteca Mexican Grill",
+        businessImages: [
+            "/Images/Azteca - inside 1.jpg",
+            "/Images/Azteca - outside 1.jpg",
+        ],
+        descriptionData: <>
+            <p>Azteca Mexican Grill offers delicious, authentic Mexican cuisine in a lively and welcoming setting. With a variety of fresh dishes, from tacos to fajitas, it’s perfect for both casual meals and social gatherings. The colorful atmosphere and friendly service make it a great spot to hang out with friends.
+            </p>
+            <p><b>Address:&nbsp;</b>1802 Mannheim rd, Stone Park, IL 60615
+            </p>
+            <p><b>Phone:</b><Link to="tel:6303865595">&nbsp;(630)-386-5595
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;Closed</li>
+                <li>Tuesday:&nbsp;10:00AM to 08:30PM</li>
+                <li>Wednesday:&nbsp;10:00AM to 08:30PM</li>
+                <li>Thursday:&nbsp;10:00AM to 08:30AM</li>
+                <li>Friday:&nbsp;10:00AM to 09:30PM</li>
+                <li>Saturday:&nbsp;09:00AM to 09:30AM</li>
+                <li>Sunday:&nbsp;09:00AM to 03:30AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/AzrecamexicanTermsAndCondition.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/AzrecamexicanPrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
+    {
+        slug: "lacabana",
+        bannertitle: "La Cabana",
+        bannerTagline: 'Bar & Grill',
+        businessLogo: "/Images/La Cabana Logo.jpeg",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About La Cabana",
+        businessImages: [
+            "/Images/La Cabana inside.jpg",
+            "/Images/La Cabana ouside.jpg",
+        ],
+        descriptionData: <>
+            <p>Step into the ultimate hangout spot where the drinks are flowing, the games are live on giant TVs, and the vibe is unbeatable! Savor specialty cocktails at our full bar, kick back on our covered patio, and indulge in mouthwatering dishes with a perfect blend of Mexican flair and American classics. Ready for a great time? Come check us out—you won't want to leave!
+            </p>
+            <p><b>Address:&nbsp;</b>968 E Steger Rd, Crete, IL 60417
+            </p>
+            <p><b>Phone:</b><Link to="tel:6303865595">&nbsp;(847)-401-7546
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Tuesday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Wednesday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Thursday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Friday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Saturday:&nbsp;11:00AM to 10:00PM</li>
+                <li>Sunday:&nbsp;11:00AM to 10:00PM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/LaCabanaTermsAndCondition.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/LaCabanaPrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
 ];
