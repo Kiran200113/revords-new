@@ -117,4 +117,43 @@ export const BusinessPageData = [
         </>,
 
     },
+    {
+        slug: 'galaxycafe',
+        bannertitle: 'Galaxy Cafe',
+        bannerTagline: '',
+        businessLogo: "/Images/galaxy logo.jpg",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Galaxy Cafe",
+        businessImages: [
+            "/Images/galaxy - inside.png",
+            "/Images/galaxy - outside.jpg",
+        ],
+        descriptionData: <>
+            <p>In Galaxy Cafe we serve up a delightful variety of delicious foods and refreshing cold drinks. Whether you're here to relax or grab a quick bite, our cozy atmosphere and flavorful menu will leave you coming back for more.</p>
+            <p><b>Address:&nbsp;</b>44W322 IL Rt 64, Lily Lake, IL 60151
+            </p>
+            <p><b>Phone:</b><Link to="tel:2245230018">&nbsp;(224)-523-0018
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;Closed</li>
+                <li>Tuesday:&nbsp;10:00AM to 08:30PM</li>
+                <li>Wednesday:&nbsp;10:00AM to 08:30PM</li>
+                <li>Thursday:&nbsp;10:00AM to 08:30AM</li>
+                <li>Friday:&nbsp;10:00AM to 09:30PM</li>
+                <li>Saturday:&nbsp;09:00AM to 09:30AM</li>
+                <li>Sunday:&nbsp;09:00AM to 03:30AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/GalaxyCafeTermsAndCondiiton.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/GalaxyCafePrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
+   
 ];
