@@ -77,4 +77,44 @@ export const BusinessPageData = [
         </>,
 
     },
+    {
+        slug: 'winnerscafe',
+        bannertitle: "Winner's Cafe",
+        bannerTagline: 'EAT, DRINK & HAVE FUN!',
+        businessLogo: "/Images/Winners logo.jpg",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Winner's cafe",
+        businessImages: [
+            "/Images/winners cafe - inside 1.jpg",
+            "/Images/winner's cafe - inside 2.png",
+        ],
+        descriptionData: <>
+
+            <p>Winners Cafe offers a warm and inviting space where guests can relax, savor drinks, and enjoy a selection of tasty light snacks and meals. It’s the perfect spot to unwind, connect with others, and enjoy a modern, friendly atmosphere.</p>
+            <p> <b>Address: </b>
+                7530 S Harlem Ave, Bridgeview, IL 60455
+            </p>
+            <p><b>Phone:</b><Link to="tel:7085460877">&nbsp;(708)-546-0877</Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Tuesday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Wednesday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Thursday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Friday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Saturday:&nbsp;2:00PM to 2:00AM</li>
+                <li>Sunday:&nbsp;2:00PM to 2:00AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/WinnersCafeTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/WinnersCafePrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>,
+
+    },
 ];

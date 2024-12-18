@@ -22,9 +22,13 @@
   position: relative;
 
 }
-
+.companyImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .companyImage img {
-  width: 90%;
+  width: 300px;
   /* height: 100%; */
 }
 
@@ -41,6 +45,7 @@
   margin-bottom: 1rem;
   margin-top: 1rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .companyDetails p {
