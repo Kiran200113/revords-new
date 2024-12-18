@@ -117,7 +117,7 @@ export const BusinessPageData = [
         </>,
 
     },
-    
+
     {
         slug: 'hotshotcafe',
         bannertitle: "Hot shot",
@@ -133,7 +133,7 @@ export const BusinessPageData = [
 
             <p>Hot Shot Cafe is a premium lounge offering a comfortable and secure environment where guests can relax, enjoy a variety of beverages, light snacks, and delicious food, and have a great time socializing with friends. Perfect for unwinding in a vibrant, interactive setting.</p>
             <p> <b>Address: </b>
-            4601 S Harlem ave unit B, forest view , IL 60402
+                4601 S Harlem ave unit B, forest view , IL 60402
             </p>
             <p><b>Phone:</b><Link to="tel:7737169873">&nbsp;(773)-716-9873</Link></p>
             <p><b>Hours:</b></p>
@@ -196,5 +196,86 @@ export const BusinessPageData = [
             </div>
         </>
     },
-   
+    {
+        slug: 'hotandspicygrill',
+        bannertitle: 'Hot & Spicy Grill',
+        bannerTagline: 'Cafe & lounge',
+        businessLogo: "/Images/Hot and Spicy Logo.png",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Hot & Spicy Grill Cafe",
+        businessImages: [
+            "/Images/Hot and Spicy grill - inside.jpg",
+            "/Images/Hot and Spicy grill - outside.jpg",
+        ],
+        descriptionData: <>
+            <p>At Hot & Spicy Grill Cafe, we offer light snacks, delicious food, and refreshing drinks in a clean and welcoming environment. Come relax in our inviting space with friendly service—the perfect spot to unwind, socialize, and have fun.</p>
+            <p><b>Address:&nbsp;</b>502 W 34th St, Steger, IL 60475
+
+            </p>
+            <p><b>Phone:</b><Link to="tel:7082539055">&nbsp;(708)-253-9055
+
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Tuesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Wednesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Thursday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Friday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Saturday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Sunday:&nbsp;09:00AM to 02:00AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/Hot&SpicyGrillCafeIncTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/HotandSpicyGrillCafeIncPrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
+    {
+        slug: "luckycorner",
+        bannertitle: 'Lucky Corner',
+        bannerTagline: 'Cafe & lounge',
+        businessLogo: "/Images/Lucky Corner Logo.jpg",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Lucky Corner",
+        businessImages: [
+            "/Images/inside_image 1.jpg",
+            "/Images/inside_image 2.jpg",
+        ],
+        descriptionData: <>
+            <p>Your neighborhood spot to unwind and connect! At Lucky Corner, we bring people together with quick snacks, fancy cocktails, chilled beers, and fine wines. Whether you're socializing with friends or enjoying family time, we promise a vibrant ambiance and great memories. Come hang out with us and make every moment special!</p>
+            <p><b>Address:&nbsp;</b>44 E Main St, Cary, IL 60013
+            </p>
+            <p><b>Phone:</b><Link to="tel:2247669057">&nbsp;(224)-766-9057
+
+
+            </Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Tuesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Wednesday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Thursday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Friday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Saturday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Sunday:&nbsp;09:00AM to 02:00AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/LuckyOrderTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/LuckyCornerPrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    }
+
+
 ];
