@@ -4,6 +4,7 @@ import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
 import Revords from "/Images/Revords.png"
 const Footer = () => {
+
     return (
         <>
             <section id="FooterContainer">
