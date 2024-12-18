@@ -117,6 +117,47 @@ export const BusinessPageData = [
         </>,
 
     },
+    
+    {
+        slug: 'hotshotcafe',
+        bannertitle: "Hot shot",
+        bannerTagline: 'Cafe & lounge',
+        businessLogo: "/Images/Hot Shot Logo.png",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Hot shot cafe",
+        businessImages: [
+            "/Images/Hot shot inside.png",
+            "/Images/Host Shot2.png",
+        ],
+        descriptionData: <>
+
+            <p>Hot Shot Cafe is a premium lounge offering a comfortable and secure environment where guests can relax, enjoy a variety of beverages, light snacks, and delicious food, and have a great time socializing with friends. Perfect for unwinding in a vibrant, interactive setting.</p>
+            <p> <b>Address: </b>
+            4601 S Harlem ave unit B, forest view , IL 60402
+            </p>
+            <p><b>Phone:</b><Link to="tel:7737169873">&nbsp;(773)-716-9873</Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Tuesday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Wednesday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Thursday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Friday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Saturday:&nbsp;9:00AM to 2:00AM</li>
+                <li>Sunday:&nbsp;9:00AM to 2:00AM</li>
+            </ul>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/HotShotCafeTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/HotShotCafePrivacyPolicy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>,
+
+    },
     {
         slug: 'galaxycafe',
         bannertitle: 'Galaxy Cafe',
