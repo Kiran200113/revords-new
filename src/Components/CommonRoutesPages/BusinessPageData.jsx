@@ -9,8 +9,9 @@ export const BusinessPageData = [
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Hot spot cafe",
         businessImages: [
-            "/Images/Hot Spot Cafe - inside.png",
             "/Images/Hot Spot Cafe - outside ( Copy ).jpg",
+            "/Images/Hot Spot Cafe - inside.png",
+
         ],
         descriptionData: <>
             <p>Hot Spot Cafe is a warm and friendly venue that provides a cozy space for guests to relax, savor drinks, and enjoy a selection of light snacks and food. It’s the ideal spot to hang out, socialize, and experience a lively atmosphere with friends.
@@ -30,9 +31,9 @@ export const BusinessPageData = [
             <div>
                 <p><b>Legal</b></p>
                 <div>
-                    <p><a href="/Images/Hot Spot Gaming Cafe LLC Terms And Conditions.pdf" target="_blank">Terms & Conditions
+                    <p><a href="/Images/HotSpotCafeLLCTermsAndConditions.pdf" target="_blank">Terms & Conditions
                     </a></p>
-                    <p> <a href="/Images/Hot Spot Gaming Cafe - Privacy Policy.pdf" target="_blank">Privacy Policy
+                    <p> <a href="/Images/HotSpotCafePrivacyPolicy.pdf" target="_blank">Privacy Policy
                     </a></p>
                 </div>
             </div>
