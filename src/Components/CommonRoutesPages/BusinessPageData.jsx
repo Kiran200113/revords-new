@@ -397,4 +397,59 @@ export const BusinessPageData = [
             </div>
         </>
     },
+    {
+        slug: "fortunesgroup",
+        bannertitle: "Fortune's Group",
+        bannerTagline: 'Cafe & lounge',
+        businessLogo: "/Images/fortune.png",
+        bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        mainheading: "About Fortune's Group",
+        businessImages: [
+            "/Images/Mr_Skillman_speech.png",
+            "/Images/Food-Table.jpg",
+            "/Images/Ribbon_Cutting.jpg"
+        ],
+        descriptionData: <>
+            <p>Fortune's is a high-end gaming lounge, providing our customers with a serene and secure space to unwind, enjoy drinks, and experience the latest in interactive entertainment.
+            </p>
+            <p><b>Address:&nbsp;</b>139 W Irving Park Rd, Streamwood, IL 60107
+            </p>
+            <p><b>Phone:</b><Link to="tel:6308555385">&nbsp;(630)-855-5385</Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>Monday:&nbsp;09:00AM to 01:00AM</li>
+                <li>Tuesday:&nbsp;09:00AM to 01:00AM</li>
+                <li>Wednesday:&nbsp;09:00AM to 01:00AM</li>
+                <li>Thursday:&nbsp;09:00AM to 01:00AM</li>
+                <li>Friday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Saturday:&nbsp;09:00AM to 02:00AM</li>
+                <li>Sunday:&nbsp;09:00AM to 01:00AM</li>
+            </ul>
+            <div>
+                <h1>Fortune's Locations</h1>
+                <h3><b>Streamwood, IL</b></h3>
+                <p>139 W Irving Park Rd, Streamwood, IL 60107 , Phone:<Link to="tel:6308555385">&nbsp;630-855-5385</Link>
+                </p>
+                <h3><b>Oswego, IL</b></h3>
+                <p>2758 Route 34, Oswego, IL 60543 , Phone:<Link to="tel:6306366325">&nbsp;630-636-6325</Link>
+                </p>
+                <h3><b>South Elgin, IL</b></h3>
+                <p>1275 W Spring St, South Elgin, IL 60177 , Phone:<Link to="tel:2242383516">&nbsp;224-238-3516</Link>
+                </p>
+                <h3><b>Carpentersville, IL</b></h3>
+                <p>2164 N Randall Rd, Carpentersville, IL</p>
+                <h3><b>Melrose Park, IL</b></h3>
+                <p>137 ½ 19th Ave, Melrose Park, IL</p>
+            </div>
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/FortunesTermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/FortunesPrivacy Policy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
 ];
