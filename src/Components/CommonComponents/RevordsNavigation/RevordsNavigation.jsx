@@ -177,6 +177,17 @@ const RevordsNavigation = () => {
                                 placeholder="Zip Code"
                             />
                         </div>
+                        <div className="form-field">
+                            <label htmlFor="zip">Textarea</label>
+                            <input
+                                type="text"
+                                id="textArea"
+                                name="textArea"
+                                value={formData.textarea}
+                                onChange={handleInputChange}
+                                placeholder="Your Message"
+                            />
+                        </div>
                     </div>
 
                     <div className="form-actions">
