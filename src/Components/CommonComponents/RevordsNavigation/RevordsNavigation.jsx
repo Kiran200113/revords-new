@@ -30,7 +30,6 @@ const RevordsNavigation = () => {
             ...prev,
             [name]: value
         }));
-        // Clear any existing error for this field as the user types
         setErrors((prev) => ({
             ...prev,
             [name]: ""
@@ -87,7 +86,7 @@ const RevordsNavigation = () => {
         <>
             <section className="NavigationContainer">
                 <div className="AnimatedNavigationBar">
-                    <div className="ScrollToFillContainer" style={{ height:'70px' }}>
+                    <div className="ScrollToFillContainer" style={{ height: '70px' }}>
 
                     </div>
                     <div className="NavigationContent">
