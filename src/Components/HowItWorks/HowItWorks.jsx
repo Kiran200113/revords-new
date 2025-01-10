@@ -6,30 +6,31 @@ import { MdOutlineDoneAll } from "react-icons/md";
 const HowItWorks = () => {
     const HowItWorksData = [
         {
-            title: "Rewards on Autopilot",
+            title: "Two quick and easy ways to sign up",
             points: [
-                "Design automated rewards programs that keep customers coming back for more.",
-                "Welcome new customers, celebrate birthdays, and win back inactive ones - all without lifting a finger!"
+                "Customers can sign up for your rewards program by simply entering their phone number on the store tablet.",
+                "Alternatively, customers can download Revords app, like your business and become prospect member of your business."
             ]
         },
         {
-            title: "Sign-Ups in Seconds, Not Minutes",
+            title: "Autopilot – Your Campaign Bot",
             points: [
-                "Ditch the paper forms. Customers simply use their phone number to join in-store, making data collection a breeze."
+                "Design your own automated campaign that keep customers coming back for more.",
+                "Welcome new customers, celebrate birthdays, and win back inactive customers - all without lifting a finger!"
             ]
         },
         {
-            title: "AutoPilot: Your Marketing Superhero",
+            title: "Targeted Promotions – The Instant Booster",
             points: [
-                "Send personalized offers straight to your customers' phones, via app notifications, texts, or emails.",
-                "Revords' AutoPilot is highly effective compared to traditional marketing - watch your sales soar!"
+                "Craft custom one-time promotions to target specific customer groups and boost your customer footprint instantly. ",
+                "With one click, send promotions to customers of your multiple business locations and drive them to any location or a specific location within your business group."
             ]
         },
         {
-            title: "Targeted Promotions for Instant Impact",
+            title: "Dashboard – Your ultimate tool for success",
             points: [
-                "Craft custom one-time promotions to target specific customer groups.",
-                "Need to boost sales during a special event? Done! Revords can help you significantly increase customer visits."
+                "Review customer traffic across multiple businesses at a glance.",
+                "Using Powerful analytics, monitor your revenue trend, control your promotion spend, gain insights into competition activities around your business, and more"
             ]
         }
     ];
@@ -41,9 +42,10 @@ const HowItWorks = () => {
 
                 </div>
                 <div style={{ position: "sticky" }}>
-                    <h2 className="sectionHeading" style={{  marginTop: "0px" }}>How it Works?</h2>
-                    <p>Revords is a powerful marketing platform designed to drive more customers to your store by combining automated rewards and promotions with effective communication strategies. <br /> Revords: Your Secret Weapon for Customer Engagement Tired of chasing loyalty? Revords automates it!</p>
-            
+                    <h2 className="sectionHeading" style={{ marginTop: "0px" }}>How it Works?</h2>
+                    <p>The Revords platform powers business growth by customizing rewards, delivering targeted promotions, automating campaigns, and engaging customers effectively.
+                    </p>
+
                 </div>
                 <div>
                     <Row>

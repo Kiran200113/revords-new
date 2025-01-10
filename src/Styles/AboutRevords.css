@@ -43,6 +43,7 @@
 .TitleContainer h4 {
     text-align: center;
     color: #626d86;
+    font-size: 20px;
 }
 
 .TitleContainer {
@@ -52,7 +53,7 @@
 }
 
 .CardContentContainer img {
-    width: 150px;
+    width: 200px;
     /* height: 300px; */
     aspect-ratio: 3 / 2;
     object-fit: contain;

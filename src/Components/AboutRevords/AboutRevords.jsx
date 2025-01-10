@@ -6,7 +6,7 @@ const AboutRevords = () => {
 
     const CardsData = [
         {
-            title: "User Friendly Marketing Dashboard",
+            title: "Access to Powerful Dashboard",
             image: "/Images/RevordUserFreindlyDashboard.png"
         },
         {

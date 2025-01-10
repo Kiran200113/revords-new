@@ -15,7 +15,7 @@ const HeroHomePage = ({ scrollToAboutUs }) => {
     const carousalData = [
         {
             img: JoinUstoday,
-            text: "Your all-in-one loyalty platform to turn visitors into happy, loyal customers!"
+            text: "Revords - Your All-In-One Loyalty Platform to Turn Visitors into Happy, Loyal Customers"
         },
         // {
         //     img: DiscoverBusiness,

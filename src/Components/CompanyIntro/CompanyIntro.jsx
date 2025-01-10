@@ -38,32 +38,33 @@ const CompanyIntro = () => {
                 <div>
                   <h2 className="sectionHeading">ABOUT REVORDS</h2>
                   <p>
-                    Revords is created and developed by local business owners who
-                    carry deep understandings of the dynamic needs of local
-                    businesses and the associated customer satisfaction and loyalty.
+                    Revords is a cutting-edge customer loyalty platform designed to connect local merchants with their customers in a more meaningful way.
+
                     <br />
                     <br />
-                    Revords is a straightforward, yet robust customer loyalty
-                    platform that makes life simpler for business owners and
-                    customers.
+                    For merchants, Revords offers a powerful toolkit to drive customer engagement and retention. Beyond offering loyalty points, merchants can send targeted promotions and personalized offers directly to their customers. This helps attract repeat business, increase foot traffic, and build a loyal customer base. Merchants can leverage Revords Advance Analytics to track revenue trends, optimize promotional spending, uncover insights about competitive activities of nearby businesses, and much more.
+                    <br /><br />
+                    With Revords, customers can find local businesses of their choice, effortlessly sign in at participating merchants to earn loyalty points for their purchases. These points can be redeemed for exciting rewards and offers provided by the merchants themselves, creating a seamless and rewarding shopping experience.
+                    <br /><br />
+                    Whether you're a customer looking for more value from your favorite local shops or a merchant seeking to grow your business, Revords is here to make loyalty rewarding for everyone. Join the Revords community and transform the way you experience local shopping and engagement!
+
                   </p>
                 </div>
                 <div className="VMContainer">
                   <Tabs defaultActiveKey="1" centered>
                     <TabPane tab="Our Mission" key="1">
                       <p>
-                        Our mission is to revolutionize the way businesses engage with their customers by offering a comprehensive and user-friendly loyalty software platform.
+                        At Revords, our mission is to empower local businesses and delight customers by creating lasting connections built on loyalty and rewards.
+
                       </p>
                       <p>
-                        We strive to empower businesses to create personalized and rewarding experiences that foster customer retention, satisfaction, and brand advocacy.
+                        We aim to revolutionize the way merchants engage with their communities by providing an intuitive platform that drives customer retention and business growth. Through innovative solutions, we strive to create a win-win ecosystem where customers feel valued and businesses thrive. By bridging the gap between merchants and customers, we are building a future where loyalty is rewarded and local economies flourish.
+
                       </p>
                     </TabPane>
                     <TabPane tab="Our Vision" key="2">
                       <p>
-                        We envision a future where businesses can effortlessly connect with their customers, understand their needs, and provide tailored rewards and experiences that inspire long-term loyalty.
-                      </p>
-                      <p>
-                        Through our advanced technology and customer-centric approach, we aim to be the driving force behind customer loyalty strategies that lead to sustainable growth and success.
+                        Our vision is to become the leading platform that transforms local commerce by creating seamless, rewarding experiences for both merchants and customers. We envision a world where every local business has the tools to compete and thrive, and every customer feels valued and connected to their community. Through innovation, collaboration, and a commitment to excellence, we aim to redefine loyalty and elevate local economies, fostering a future where every interaction is meaningful and mutually rewarding.
                       </p>
                     </TabPane>
                   </Tabs>

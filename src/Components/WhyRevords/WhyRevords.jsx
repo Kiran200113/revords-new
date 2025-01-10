@@ -10,28 +10,52 @@ import Simplifiedcustomer from "/Icons/Simplifiedcustomer.png"
 const WhyRevords = () => {
 
     const CardsContent = [
+        // {
+        //     title: "Simplified customer enrollment",
+        //     image: Simplifiedcustomer
+        // },
+        // {
+        //     title: "Multiple ways of earning points for customers",
+        //     image: MultipleWays
+        // },
+        // {
+        //     title: "Tag your customers by their visiting and spending habits",
+        //     image: visitingandspendinghabits
+        // },
+        // {
+        //     title: "Customizable look and feel for different businesses",
+        //     image: Customizablelook
+        // },
+        // {
+        //     title: "Manage multiple locations effectively",
+        //     image: Managemultiplelocations
+        // },
+        // {
+        //     title: "Powerful and accurate analytics",
+        //     image: Powerfulandaccurate
+        // },
         {
-            title: "Simplified customer enrollment",
+            title: "Generate 12x greater customer footprint",
             image: Simplifiedcustomer
         },
         {
-            title: "Multiple ways of earning points for customers",
+            title: "Cost effective – Retain your customers at a fraction of the cost of traditional marketing",
             image: MultipleWays
         },
         {
-            title: "Tag your customers by their visiting and spending habits",
+            title: "Powerful Data Analytics",
             image: visitingandspendinghabits
         },
         {
-            title: "Customizable look and feel for different businesses",
+            title: "Manage multiple locations effectively",
             image: Customizablelook
         },
         {
-            title: "Manage multiple locations effectively",
+            title: "Send targeted promotions based on customer visits and spending habits",
             image: Managemultiplelocations
         },
         {
-            title: "Powerful and accurate analytics",
+            title: "Business Branding: MMS promotions are sent with your business name and from a dedicated number assigned for your business.",
             image: Powerfulandaccurate
         }
     ]
@@ -45,7 +69,7 @@ const WhyRevords = () => {
                             {CardsContent.map((item, index) => (
                                 <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
                                     <div className="AnimatedCardContainer">
-                                        <span>0{index + 1}</span>
+                                        {/* <span>0{index + 1}</span> */}
                                         <div className="CardIconContainer">
                                             <img src={item.image} alt="" />
                                         </div>
