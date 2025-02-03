@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../Styles/ContactUs.css";
-import { Row, Col, Input, Button } from "antd";
+import { Row, Col, Input, Button,notification } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 
@@ -34,8 +34,8 @@ const ContactUs = () => {
         }
         if (!formData.number) {
             newErrors.number = "Number is required.";
-        } else if (!/^\d+$/.test(formData.number)) {
-            newErrors.number = "Enter a valid phone number.";
+        } else if (!/^\d{10}$/.test(formData.number)) {  // Ensure exactly 10 digits
+            newErrors.number = "Enter a valid 10-digit phone number.";
         }
         if (!formData.message) newErrors.message = "Message is required.";
 
@@ -48,10 +48,25 @@ const ContactUs = () => {
         e.preventDefault();
         if (validateForm()) {
             console.log("Form Data Submitted:", formData);
-            // Add submission logic (e.g., API call) here
+
+            // Show success notification
+            notification.success({
+                message: "Success!",
+                description: "Your message has been sent successfully.",
+                placement: "topRight",
+            });
+
+            // Reset form after submission
+            setFormData({
+                name: "",
+                email: "",
+                number: "",
+                company: "",
+                title: "",
+                message: "",
+            });
         }
     };
-
     return (
         <>
             <section id="ContactContainer">
@@ -120,9 +135,9 @@ const ContactUs = () => {
                                 {errors.message && <span className="error-message">{errors.message}</span>}
                             </div>
                             <div className="BtnContainer">
-                                <button type="primary" onClick={handleSubmit}>
+                            <Button type="primary" onClick={handleSubmit}>
                                     Send Message
-                                </button>
+                                </Button>
                             </div>
                         </div>
                     </Col>
