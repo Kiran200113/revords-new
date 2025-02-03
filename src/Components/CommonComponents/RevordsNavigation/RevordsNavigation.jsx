@@ -177,7 +177,7 @@ const RevordsNavigation = () => {
                             />
                         </div>
                         <div className="form-field">
-                            <label htmlFor="zip">Textarea</label>
+                            <label htmlFor="zip">Our Message</label>
                             <input
                                 type="text"
                                 id="textArea"

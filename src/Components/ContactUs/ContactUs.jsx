@@ -80,14 +80,17 @@ const ContactUs = () => {
                                 {errors.email && <span className="error-message">{errors.email}</span>}
                             </div>
                             <div>
-                                <Input
-                                    placeholder="Phone Number"
-                                    type="text"
-                                    name="number"
-                                    value={formData.number}
-                                    onChange={handleChange}
-                                />
-                                {errors.number && <span className="error-message">{errors.number}</span>}
+                            <Input
+    placeholder="Phone Number"
+    type="text"
+    name="number"
+    value={formData.number}
+    onChange={handleChange}
+    maxLength={10}  // Restrict input to 10 characters
+    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9]/g, '')}  // Allow numbers only
+/>
+{errors.number && <span className="error-message">{errors.number}</span>}
+
                             </div>
                             <div>
                                 <Input
