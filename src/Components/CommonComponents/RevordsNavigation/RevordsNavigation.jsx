@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../../../Styles/Navigation.css"
 import Revords from "/Images/Revords.png"
 import { Link } from "react-router-dom";
-import { Modal } from "antd";
+import { Modal, notification } from "antd";
 const RevordsNavigation = () => {
     const [scrollHeight, setScrollHeight] = useState(70);
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,7 +37,7 @@ const RevordsNavigation = () => {
     };
 
     const validateForm = () => {
-        let newErrors = {};
+        const newErrors = {};
         if (!formData.name.trim()) {
             newErrors.name = "Please enter your name.";
         }
@@ -60,11 +60,16 @@ const RevordsNavigation = () => {
     };
 
     const handleFormSubmit = (e) => {
-        e.preventDefault();
+   e.preventDefault();
         if (validateForm()) {
             console.log("Form Data:", formData);
             // Submit your form data (fetch/axios) here
             // After submission:
+            notification.success({
+                message: "Success!",
+                description: "Your message has been sent successfully.",
+                placement: "topRight",
+            });
             setIsModalOpen(false);
         }
     };
@@ -127,14 +132,16 @@ const RevordsNavigation = () => {
 
                     <div className="form-row">
                         <div className="form-field">
-                            <label htmlFor="phone">Mobile Number</label>
+                            <label htmlFor="phone">Mobile Number*</label>
                             <input
                                 type="tel"
                                 id="phone"
                                 name="phone"
+                                maxLength={10}
                                 value={formData.phone}
                                 onChange={handleInputChange}
                                 placeholder="e.g.: 9876543210"
+                                onInput={(e) => e.target.value = e.target.value.replace(/[^0-9]/g, '')}  // Allow numbers only
                             />
                             {errors.phone && <span className="error-text">{errors.phone}</span>}
                         </div>
