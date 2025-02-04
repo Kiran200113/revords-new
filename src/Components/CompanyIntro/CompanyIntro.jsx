@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Row, Col, Tabs } from "antd";
 import "../../Styles/CompanyIntro.css";
-
+import SectionImage from "./sectionBacknew.jpg"
 const { TabPane } = Tabs;
 const CompanyIntro = () => {
   const imageRef = useRef(null);
@@ -83,7 +83,7 @@ const CompanyIntro = () => {
                   transform: `scale(${scale})`,
                   transition: "transform 0.1s ease-out",
                 }}
-                src="https://images.unsplash.com/photo-1444653389962-8149286c578a?q=80&w=2928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={SectionImage}
                 alt="Company"
               />
             </div>

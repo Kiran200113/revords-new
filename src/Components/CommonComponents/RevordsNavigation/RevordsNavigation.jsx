@@ -11,7 +11,8 @@ const RevordsNavigation = () => {
         email: "",
         phone: "",
         company: "",
-        zip: ""
+        zip: "",
+        message: ""
     });
 
     const [errors, setErrors] = useState({});
@@ -60,7 +61,7 @@ const RevordsNavigation = () => {
     };
 
     const handleFormSubmit = (e) => {
-   e.preventDefault();
+        e.preventDefault();
         if (validateForm()) {
             console.log("Form Data:", formData);
             // Submit your form data (fetch/axios) here
@@ -71,6 +72,14 @@ const RevordsNavigation = () => {
                 placement: "topRight",
             });
             setIsModalOpen(false);
+            setFormData({
+                name: "",
+                email: "",
+                phone: "",
+                company: "",
+                zip: "",
+                message: ""
+            })
         }
     };
 
@@ -184,11 +193,11 @@ const RevordsNavigation = () => {
                             />
                         </div>
                         <div className="form-field">
-                            <label htmlFor="zip">Your Message</label>
+                            <label htmlFor="message">Your Message</label>
                             <input
                                 type="text"
-                                id="textArea"
-                                name="textArea"
+                                id="message"
+                                name="message"
                                 value={formData.textarea}
                                 onChange={handleInputChange}
                                 placeholder="Your Message"
