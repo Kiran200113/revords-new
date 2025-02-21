@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col,Image } from "antd";
 import "../../Styles/AboutRevords.css"
 const AboutRevords = () => {
 
@@ -11,15 +11,15 @@ const AboutRevords = () => {
         },
         {
             title: "Customer Tablet",
-            image: "/Images/CustomerTablet.png"
+            image: "/Images/CustomerAppImage.png"
         },
         {
             title: "Store Tablet",
-            image: "/Images/StoreTablet.png"
+            image: "/Images/StoreTablet1.png"
         },
         {
             title: "Mobile App For Business Owners And Customers",
-            image: "/Images/MobileApp.png"
+            image: "/Images/MobileApp1.png"
         }
     ]
     return (
@@ -37,7 +37,7 @@ const AboutRevords = () => {
                                     </div>
                                     <hr />
                                     <div className="CardContentContainer">
-                                        <img src={item.image} alt="" />
+                                        <Image src={item.image} alt="" />
                                     </div>
 
                                 </div>

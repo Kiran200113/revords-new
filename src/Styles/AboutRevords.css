@@ -52,7 +52,7 @@
     align-items: center;
 }
 
-.CardContentContainer img {
+.CardContentContainer .ant-image-img {
     width: 200px;
     /* height: 300px; */
     aspect-ratio: 3 / 2;
@@ -60,7 +60,7 @@
     transition: .5s;
 }
 
-.CardContainer:hover img {
+.CardContainer:hover .ant-image-img {
     width: 150px;
     /* height: 300px; */
     aspect-ratio: 3 / 2;
