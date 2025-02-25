@@ -5,7 +5,7 @@ export const BusinessPageData = [
         slug: 'hotspotcafe',
         bannertitle: 'Hot spot',
         bannerTagline: 'Cafe & Lounge',
-        businessLogo: "/Images/Hot Spot Logo.png",
+        businessLogo: "/Images/BussinessLogos/HotSpotLogoOg.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Hot spot cafe",
         businessImages: [
@@ -43,7 +43,7 @@ export const BusinessPageData = [
         slug: 'brickovenpizza',
         bannertitle: 'Brick Oven Pizza',
         bannerTagline: '',
-        businessLogo: "/Images/Brick Oven Pizza Logo.png",
+        businessLogo: "/Images/BussinessLogos/BrickOvenPizzaLogo.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Brick Oven Pizza",
         businessImages: [
@@ -83,7 +83,7 @@ export const BusinessPageData = [
         slug: 'winnerscafe',
         bannertitle: "Winner's Cafe",
         bannerTagline: 'EAT, DRINK & HAVE FUN!',
-        businessLogo: "/Images/Winners logo.jpg",
+        businessLogo: "/Images/BussinessLogos/Winners_cafe.jpg",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Winner's cafe",
         businessImages: [
@@ -124,7 +124,7 @@ export const BusinessPageData = [
         slug: 'hotshotcafe',
         bannertitle: "Hot shot",
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/Hot Shot Logo.png",
+        businessLogo: "/Images/BussinessLogos/Hot Shot Logo.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Hot shot cafe",
         businessImages: [
@@ -164,7 +164,7 @@ export const BusinessPageData = [
         slug: 'galaxycafe',
         bannertitle: 'Galaxy Cafe',
         bannerTagline: '',
-        businessLogo: "/Images/galaxy logo.jpg",
+        businessLogo: "/Images/BussinessLogos/galaxy logo.jpg",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Galaxy Cafe",
         businessImages: [
@@ -202,7 +202,7 @@ export const BusinessPageData = [
         slug: 'hotandspicygrill',
         bannertitle: 'Hot & Spicy Grill',
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/Hot and Spicy Logo.png",
+        businessLogo: "/Images/BussinessLogos/hot&spicyGrill.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Hot & Spicy Grill Cafe",
         businessImages: [
@@ -242,7 +242,7 @@ export const BusinessPageData = [
         slug: "luckycorner",
         bannertitle: 'Lucky Corner',
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/Lucky Corner Logo.jpg",
+        businessLogo: "/Images/BussinessLogos/LuckyCorner.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Lucky Corner",
         businessImages: [
@@ -282,7 +282,7 @@ export const BusinessPageData = [
         slug: "vipcafe",
         bannertitle: "VIP's",
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/VIP's Cafe - Logo.png",
+        businessLogo: "/Images/BussinessLogos/Vip's.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About VIP's Cafe",
         businessImages: [
@@ -323,7 +323,7 @@ export const BusinessPageData = [
         slug: "aztecamexican",
         bannertitle: "AZTECA",
         bannerTagline: 'MEXICAN GRILL',
-        businessLogo: "/Images/Azteca - logo.jpg",
+        businessLogo: "/Images/BussinessLogos/Azteca - logo.jpg",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Azteca Mexican Grill",
         businessImages: [
@@ -362,7 +362,7 @@ export const BusinessPageData = [
         slug: "lacabana",
         bannertitle: "La Cabana",
         bannerTagline: 'Bar & Grill',
-        businessLogo: "/Images/La Cabana Logo.jpeg",
+        businessLogo: "/Images/BussinessLogos/LaCabana.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About La Cabana",
         businessImages: [
@@ -401,7 +401,7 @@ export const BusinessPageData = [
         slug: "fortunesgroup",
         bannertitle: "Fortune's Group",
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/fortune.png",
+        businessLogo: "/Images/BussinessLogos/fortunes.png",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Fortune's Group",
         businessImages: [
@@ -447,6 +447,47 @@ export const BusinessPageData = [
                     <p><a href="/Images/FortunesTermsAndConditions.pdf" target="_blank">Terms & Conditions
                     </a></p>
                     <p> <a href="/Images/FortunesPrivacy Policy.pdf" target="_blank">Privacy Policy
+                    </a></p>
+                </div>
+            </div>
+        </>
+    },
+    {
+        slug: "Brewhaus31",
+        bannertitle: "Brewhaus 31",
+        bannerTagline: '',
+        businessLogo: "/Images/BussinessLogos/brewhaus-logo.png",
+        bannerImage: "/Images/Brewhaus2.jpeg",
+        mainheading: "About Brewhaus31",
+        businessImages: [
+            "/Images/Brewhaus.jpeg",
+            "/Images/Brewhaus2.jpeg",
+        ],
+        descriptionData: <>
+            <p>BrewHaus 31, the town's premier destination for elevated dining and entertainment, where craft beers, gourmet pizzas, refined cuisine, and expertly crafted cocktails converge in a sophisticated setting. Perfect for any occasion, from relaxed social get-togethers to vibrant evenings out, it offers a unique blend of exceptional taste and elegant ambiance.</p>
+            <p><b>Address:&nbsp;</b>1320 S Main St, Algonquin, IL 60102
+            </p>
+            <p><b>Phone:</b><Link to="tel:2242014053">&nbsp;2242014053</Link></p>
+            <p><b>Hours:</b></p>
+            <ul>
+                <li>SUNDAY:&nbsp;11 AM to 9 PM
+                </li>
+                <li>MONDAY:&nbsp;4 PM to 9 PM</li>
+                <li>TUESDAY:&nbsp;4 PM to 9 PM
+                </li>
+                <li>WEDNESDAY:&nbsp;4 PM to 9 PM</li>
+                <li>THURSDAY:&nbsp;4 PM to 9 PM</li>
+                <li>FRIDAY:&nbsp;11 AM to 11 PM
+                </li>
+                <li>SATURDAY:&nbsp;11 AM to 11 PM</li>
+            </ul>
+
+            <div>
+                <p><b>Legal</b></p>
+                <div>
+                    <p><a href="/Images/Brewhaus31TermsAndConditions.pdf" target="_blank">Terms & Conditions
+                    </a></p>
+                    <p> <a href="/Images/Brewhaus31PrivacyPolicy.pdf" target="_blank">Privacy Policy
                     </a></p>
                 </div>
             </div>
