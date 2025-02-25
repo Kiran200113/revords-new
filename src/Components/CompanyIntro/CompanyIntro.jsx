@@ -68,7 +68,7 @@ const CompanyIntro = () => {
                   transform: `scale(${scale})`,
                   transition: "transform 0.1s ease-out",
                 }}
-                src={SectionImage}
+                src="/Images/AboutRevordsImages.avif"
                 alt="Company"
               />
             </div>
