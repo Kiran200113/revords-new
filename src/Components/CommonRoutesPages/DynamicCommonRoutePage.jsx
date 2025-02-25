@@ -23,10 +23,10 @@ const DynamicCommonRoutePage = ({ data }) => {
                             <img src={content.businessLogo} />
                         </div>
 
-                        <div className="companyDetails">
+                        {/* <div className="companyDetails">
                             <h3>{content.bannertitle}</h3>
                             <p>{content.bannerTagline}</p>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

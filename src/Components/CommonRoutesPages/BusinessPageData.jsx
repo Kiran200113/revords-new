@@ -83,7 +83,7 @@ export const BusinessPageData = [
         slug: 'winnerscafe',
         bannertitle: "Winner's Cafe",
         bannerTagline: 'EAT, DRINK & HAVE FUN!',
-        businessLogo: "/Images/BussinessLogos/Winners_cafe.jpg",
+        businessLogo: "/Images/BussinessLogos/WinnersCafe.jpeg",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Winner's cafe",
         businessImages: [
@@ -242,7 +242,7 @@ export const BusinessPageData = [
         slug: "luckycorner",
         bannertitle: 'Lucky Corner',
         bannerTagline: 'Cafe & lounge',
-        businessLogo: "/Images/BussinessLogos/LuckyCorner.png",
+        businessLogo: "/Images/BussinessLogos/LuckyCorner.jpeg",
         bannerImage: "https://images.unsplash.com/photo-1644461150893-19421f5020d8?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         mainheading: "About Lucky Corner",
         businessImages: [

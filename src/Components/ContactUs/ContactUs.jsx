@@ -1,157 +1,78 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import "../../Styles/ContactUs.css";
-import { Row, Col, Input, Button,notification } from "antd";
+import { Row, Col, Input, Button, Form, notification } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 
 const ContactUs = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        number: "",
-        company: "",
-        title: "",
-        message: "",
-    });
+    const formRef = useRef(null);
 
-    const [errors, setErrors] = useState({});
-
-    // Input change handler
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-        setErrors({ ...errors, [name]: "" }); // Clear error on change
-    };
-
-    // Validation function
-    const validateForm = () => {
-        const newErrors = {};
-        if (!formData.name) newErrors.name = "Name is required.";
-        if (!formData.email) {
-            newErrors.email = "Email is required.";
-        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-            newErrors.email = "Enter a valid email address.";
-        }
-        if (!formData.number) {
-            newErrors.number = "Number is required.";
-        } else if (!/^\d{10}$/.test(formData.number)) {  // Ensure exactly 10 digits
-            newErrors.number = "Enter a valid 10-digit phone number.";
-        }
-        if (!formData.message) newErrors.message = "Message is required.";
-
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0; // Returns true if no errors
-    };
-
-    // Submit handler
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            console.log("Form Data Submitted:", formData);
-
-            // Show success notification
-            notification.success({
-                message: "Success!",
-                description: "Your message has been sent successfully.",
-                placement: "topRight",
+    const handleSubmit = async (values) => {
+        try {
+            const response = await fetch("https://testapi.prepseed.com/autosend/sendEmailForRevords", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(values),
             });
 
-            // Reset form after submission
-            setFormData({
-                name: "",
-                email: "",
-                number: "",
-                company: "",
-                title: "",
-                message: "",
-            });
+            if (response.ok) {
+                notification.success({ message: "Message sent successfully!" });
+                formRef.current.resetFields();
+            } else {
+                notification.error({ message: "Failed to send message" });
+            }
+        } catch (error) {
+            notification.error({ message: "An error occurred. Try again later." });
         }
     };
+
     return (
-        <>
-            <section id="ContactContainer">
-                <Row>
-                    <Col lg={12} md={12} style={{width:"100%"}}>
-                        <div className="ContactFormContainer">
-                            <h4>Your Details</h4>
-                            <div>
-                                <Input
-                                    placeholder="Your Name*"
-                                    type="text"
-                                    name="name"
-                                    value={formData.name}
-                                    onChange={handleChange}
-                                />
-                                {errors.name && <span className="error-message">{errors.name}</span>}
-                            </div>
-                            <div>
-                                <Input
-                                    placeholder="Your Email*"
-                                    type="email"
-                                    name="email"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                />
-                                {errors.email && <span className="error-message">{errors.email}</span>}
-                            </div>
-                            <div>
-                            <Input
-    placeholder="Phone Number"
-    type="text"
-    name="number"
-    value={formData.number}
-    onChange={handleChange}
-    maxLength={10}  // Restrict input to 10 characters
-    onInput={(e) => e.target.value = e.target.value.replace(/[^0-9]/g, '')}  // Allow numbers only
-/>
-{errors.number && <span className="error-message">{errors.number}</span>}
-
-                            </div>
-                            <div>
-                                <Input
-                                    placeholder="Company"
-                                    type="text"
-                                    name="company"
-                                    value={formData.company}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <Input
-                                    placeholder="Title"
-                                    type="text"
-                                    name="title"
-                                    value={formData.title}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <TextArea
-                                    placeholder="Message"
-                                    name="message"
-                                    value={formData.message}
-                                    onChange={handleChange}
-                                />
-                                {errors.message && <span className="error-message">{errors.message}</span>}
-                            </div>
+        <section id="ContactContainer">
+            <Row>
+                <Col lg={12} md={12} style={{ width: "100%" }}>
+                    <div className="ContactFormContainer">
+                        <h4>Your Details</h4>
+                        <Form ref={formRef} onFinish={handleSubmit} className="FormContainerContact">
+                            <Form.Item name="name" rules={[{ required: true, message: "Please enter your name" }]}>
+                                <Input placeholder="Your Name*" />
+                            </Form.Item>
+                            <Form.Item name="email" rules={[
+                                    { required: true, message: "Please enter your email" },
+                                    { type: "email", message: "Please enter a valid email" }
+                                ]}>
+                                <Input placeholder="Your Email*" />
+                            </Form.Item>
+                            <Form.Item name="number"  rules={[
+                                    { pattern: /^[0-9]{10,}$/, message: "Enter a valid phone number (min 10 digits)" }
+                                ]}>
+                                <Input placeholder="Phone Number" />
+                            </Form.Item>
+                            <Form.Item name="company"  rules={[{ max: 50, message: "Company name should be under 50 characters" }]}>
+                                <Input placeholder="Company" />
+                            </Form.Item>
+                            <Form.Item name="title"  rules={[{ max: 100, message: "Title should be under 100 characters" }]}>
+                                <Input placeholder="Title" />
+                            </Form.Item>
+                            <Form.Item name="message"  rules={[
+                                    { required: true, message: "Please enter your message" },
+                                    { min: 10, message: "Message should be at least 10 characters long" }
+                                ]}>
+                                <TextArea placeholder="Message" />
+                            </Form.Item>
                             <div className="BtnContainer">
-                            <Button type="primary" onClick={handleSubmit}>
-                                    Send Message
-                                </Button>
+                                <Button type="primary" htmlType="submit">Send Message</Button>
                             </div>
-                        </div>
-                    </Col>
-                    <Col lg={12} md={12} style={{width:"100%"}}>
-                        <div style={{ height: "100%", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                            <div style={{ textAlign: "center" }}>
-                                <MdOutlineMarkEmailRead style={{ fontSize: "30px" }} />
-                                <h3><a href="mailto:Info@revords.com" style={{color:"black"}}>info@revords.com</a></h3>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </section>
-        </>
+                        </Form>
+                    </div>
+                </Col>
+                <Col lg={12} md={12} style={{ width: "100%" }}>
+                    <div className="ContactInfoContainer">
+                        <MdOutlineMarkEmailRead style={{ fontSize: "30px" }} />
+                        <h3><a href="mailto:info@revords.com" style={{ color: "black" }}>info@revords.com</a></h3>
+                    </div>
+                </Col>
+            </Row>
+        </section>
     );
 };
 

@@ -1,5 +1,5 @@
 .Footer {
-    padding: 100px 40px;
+    padding: 40px 40px;
     padding-bottom: 20px !important;
     background-color: white;
 }
@@ -34,6 +34,7 @@
 #ColumnsEdit ul li a{
     color: black;
 }
+
 @media (max-width:769px) {
 
     .Footer {
