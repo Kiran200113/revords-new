@@ -3,6 +3,7 @@ import "../../../Styles/Navigation.css"
 import Revords from "/Images/Revords.png"
 import { Link } from "react-router-dom";
 import { Modal, notification } from "antd";
+
 const RevordsNavigation = () => {
     const [scrollHeight, setScrollHeight] = useState(70);
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -105,7 +106,7 @@ const RevordsNavigation = () => {
                     </div>
                     <div className="NavigationContent">
                         <div className="logoContainer">
-                            <Link to="/">  <img src={Revords} alt="" /></Link>
+                            <Link to="/">  <img src="/Images/RevordsTrademarkLogo.png" alt="" /></Link>
                         </div>
                         <div className="NavigationContactUsBtn">
                             <div>

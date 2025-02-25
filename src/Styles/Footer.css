@@ -26,6 +26,14 @@
     width: 200px;
 }
 
+#ColumnsEdit ul li{
+    color: black;
+    margin: 10px 0px;
+    margin-left: 20px;
+}
+#ColumnsEdit ul li a{
+    color: black;
+}
 @media (max-width:769px) {
 
     .Footer {

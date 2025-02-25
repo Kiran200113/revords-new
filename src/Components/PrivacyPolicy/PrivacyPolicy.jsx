@@ -1,5 +1,6 @@
 import React,{useEffect} from "react";
 import { Link } from "react-router-dom";
+import Privacypolicy from "./Privacypolicy.jpg"
 const PrivacyPolicy = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -10,17 +11,17 @@ const PrivacyPolicy = () => {
                 <div className="TopImageContainer">
 
                     <div className="CommitmentContainer">
-                        <div className="ContentContainerCommitment">
+                        {/* <div className="ContentContainerCommitment">
                             <h2>Revords LLC Privacy Policy</h2>
                             <p>
                                 <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link>&nbsp;&nbsp;/&nbsp;&nbsp;Privacy Policy
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="overlayContainer">
 
                     </div>
-                    <img src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img src={Privacypolicy} alt="" />
                 </div>
                 <div className="ContentBody">
                     <p><b>Revords LLC</b> is committed to protecting your privacy and Revords adheres to the General Data Protection Regulation.</p>

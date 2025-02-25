@@ -5,20 +5,20 @@ const RevordsParts = () => {
 
     const CardData = [
         {
-            title: "Innovative Solutions",
-            content: "We develop cutting-edge, customizable loyalty software that adapts to the unique needs of each business, providing a seamless and personalized customer experience."
+            title: "Tailored Solutions",
+            content: "Customizable loyalty software designed to seamlessly adapt to your business, delivering personalized customer experiences."
         },
         {
             title: "Customer-Centric Approach",
-            content: "Our solutions are designed to put your clients and their customers at the forefront, enhancing satisfaction and fostering brand loyalty through engagement and personalized experiences."
+            content: "Solutions crafted to enhance engagement, satisfaction, and brand loyalty through impactful interactions."
         },
         {
-            title: "Expert Team",
-            content: "Our team of industry experts provides unparalleled support and guidance, helping our clients maximize the potential of our loyalty software to achieve their business goals."
+            title: "Expert Support",
+            content: <>Our dedicated team provides ongoing technical assistance, helping you get the most out of <b>Revords' potential</b> while ensuring smooth, hassle-free operation.</>
         },
         {
-            title: "Continuous Improvement",
-            content: "We are committed to continuous improvement, regularly updating our software to incorporate the latest industry trends and technological advancements. This ensures our clients always have access to state-of-the-art loyalty solutions."
+            title: "Future-Ready Innovation",
+            content: "We stay ahead of industry trends, continuously enhancing our platform to bring you the latest advancements in loyalty solutions."
         }
     ]
 
@@ -30,8 +30,9 @@ const RevordsParts = () => {
                         <Col lg={10}>
                             <div className="CompanyDetailsContainer">
                                 <h2>What Sets Us Apart</h2>
-                                <p>At Revords, we go beyond the ordinary to redefine the customer experience. By seamlessly integrating innovative solutions with a deep understanding of business needs, we transform how you connect with your customers. Our platform isn’t just a tool—it’s a strategic partner in your success, tailored to your unique challenges and designed to drive lasting results.
-                                </p>
+                                <p style={{textAlign:"justify"}}>At Revords, we go beyond just offering a platform—we create strategic partnerships that unlock your business’ true potential. By combining cutting-edge technology with a deep understanding of your business needs, we help you build stronger customer relationships that drive loyalty and growth.</p>
+                            <p style={{textAlign:"justify"}}>With Revords, loyalty isn’t just a program—it’s a powerful connection between your business and your customers.
+                            </p>
                             </div>
                         </Col>
                         <Col lg={14}>

@@ -6,31 +6,32 @@ import { MdOutlineDoneAll } from "react-icons/md";
 const HowItWorks = () => {
     const HowItWorksData = [
         {
-            title: "Two quick and easy ways to sign up",
+            title: "Seamless Sign-Up for Customers",
+            tagline:"Customers can join your rewards program in two quick and easy ways:",
             points: [
-                "Customers can sign up for your rewards program by simply entering their phone number on the store tablet.",
-                "Alternatively, customers can download Revords app, like your business and become prospect member of your business."
+                "In Store: Customers simply enter their phone number on the in-store tablet to enroll.",
+                "Revords App: Customers can download the Revords app, like your business, and instantly become a prospective member."
             ]
         },
         {
-            title: "Autopilot – Your Campaign Bot",
+            title: "Dashboard – Your Ultimate Growth Tool",
             points: [
-                "Design your own automated campaign that keep customers coming back for more.",
-                "Welcome new customers, celebrate birthdays, and win back inactive customers - all without lifting a finger!"
+                "Get a real-time overview of customer traffic across all your business locations.",
+                "Leverage powerful analytics to track revenue trends, optimize promotional spending, and gain insights into competitor activity—all from one intuitive dashboard."
             ]
         },
         {
-            title: "Targeted Promotions – The Instant Booster",
+            title: "Autopilot – Your Smart Campaign Bot",
+            tagline:"Set up automated campaigns that bring customers back—without any manual effort:",
             points: [
-                "Craft custom one-time promotions to target specific customer groups and boost your customer footprint instantly. ",
-                "With one click, send promotions to customers of your multiple business locations and drive them to any location or a specific location within your business group."
+                "Welcome new customers, celebrate birthdays, and re-engage inactive customers automatically.",
             ]
         },
         {
-            title: "Dashboard – Your ultimate tool for success",
+            title: "Targeted Promotions – Instant Customer Boost",
             points: [
-                "Review customer traffic across multiple businesses at a glance.",
-                "Using Powerful analytics, monitor your revenue trend, control your promotion spend, gain insights into competition activities around your business, and more"
+                "Launch one-time custom promotions tailored for specific customer segments to drive instant engagement.",
+                "With a single click, send promotions across multiple business locations or direct customers to a specific store."
             ]
         }
     ];
@@ -42,8 +43,8 @@ const HowItWorks = () => {
 
                 </div>
                 <div style={{ position: "sticky" }}>
-                    <h2 className="sectionHeading" style={{ marginTop: "0px" }}>How it Works?</h2>
-                    <p>The Revords platform powers business growth by customizing rewards, delivering targeted promotions, automating campaigns, and engaging customers effectively.
+                    <h2 className="sectionHeading" style={{ marginTop: "0px" }}>How does it Work?</h2>
+                    <p>Revords helps businesses grow by offering customized rewards, delivering targeted promotions, automating campaigns, and engaging customers effortlessly.
                     </p>
 
                 </div>
@@ -58,11 +59,14 @@ const HowItWorks = () => {
                                         <div style={{ display: "flex", alignItems: "center" }}>
                                             <MdOutlineDoneAll style={{ marginRight: "20px", backgroundColor: "#b77733", color: "white", borderRadius: "50%", padding: "4px" }} /><h4 style={{ fontSize: "15px" }}>{item.title}</h4>
                                         </div>
+                                        <div className="MarginAdjust">
+                                        <p>{item.tagline}</p>
                                         <ul style={{ marginTop: "0px" }}>
                                             {item.points.map((point, idx) => (
                                                 <li key={idx}>{point}</li>
                                             ))}
                                         </ul>
+                                        </div>
                                     </div>
 
                                 </div>

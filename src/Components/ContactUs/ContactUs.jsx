@@ -145,7 +145,7 @@ const ContactUs = () => {
                         <div style={{ height: "100%", width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
                             <div style={{ textAlign: "center" }}>
                                 <MdOutlineMarkEmailRead style={{ fontSize: "30px" }} />
-                                <h3><a href="mailto:Info@revords.com" style={{color:"black"}}>Info@revords.com</a></h3>
+                                <h3><a href="mailto:Info@revords.com" style={{color:"black"}}>info@revords.com</a></h3>
                             </div>
                         </div>
                     </Col>

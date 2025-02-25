@@ -12,7 +12,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={16}>
                             <div>
-                                <img src={Revords} alt="" />
+                                <img src="/Images/RevordsTrademarkLogo.png" alt="" />
                                 <p>One stop customer loyalty program that will turn your visitors in to happy and loyal customers by digitalizing your business reward program!
                                 </p>
                             </div>
@@ -21,9 +21,21 @@ const Footer = () => {
                             <div id="ColumnsEdit">
                                 <div>
                                     <h4>Company</h4>
-                                    <div>
-                                        <Link to="/" style={{ color: "black" }}><span>Contact Us</span></Link>
+                                    <ul style={{ padding: "0px" }}>
+                                        <li>
+                                            <Link to="/" style={{ color: "black" }}><span>Contact Us</span></Link>
+                                        </li>
+                                        <li>
+                                            <span><Link to="/term&condition">Terms & Conditions</Link></span>
+                                        </li>
+                                        <li>
+                                            <span><Link to="/privacy&policy">Privacy Policy</Link></span>
+                                        </li>
+                                        {/* <div>
+                                       &nbsp;&nbsp;&nbsp;
                                     </div>
+                                        */}
+                                    </ul>
                                 </div>
 
                             </div>
@@ -34,9 +46,7 @@ const Footer = () => {
                         <div>
                             <p> © 2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions</Link>. All rights reserved.</p>
                         </div>
-                        <div>
-                            <span><Link to="/term&condition">Terms & Conditions</Link></span>&nbsp;&nbsp;&nbsp;<span><Link to="/privacy&policy">Privacy Policy</Link></span>
-                        </div>
+
                     </div>
                 </div>
             </section>

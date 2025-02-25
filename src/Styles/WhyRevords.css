@@ -6,6 +6,9 @@
   /* background-color: red; */
   background-color: #eef0f6;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .AnimatedCardContainer:hover {
@@ -18,6 +21,7 @@
   position: sticky;
   z-index: 55;
   transition: 0.5s;
+
   /* position: absolute; */
   /* background-color: red; */
 }
@@ -26,7 +30,7 @@
   justify-content: center;
 }
 .CardIconContainer img {
-  width: 50%;
+  width: 30%;
   aspect-ratio: 3/2;
   object-fit: contain;
 }

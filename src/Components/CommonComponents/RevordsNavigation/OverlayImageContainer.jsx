@@ -34,8 +34,9 @@ const OverlayImageContainer = () => {
                     <div className="CommitmentContainer">
                         <div className="ContentContainerCommitment">
                             <h3>Our Commitment</h3>
-                            <p>
-                                At Revords, we are dedicated to delivering exceptional loyalty solutions that drive success for businesses and enhance customer experiences. We are committed to providing innovative, customizable software that adapts to the unique needs of each client, ensuring they always have the tools they need to succeed. With a focus on continuous improvement and a client-centered approach, we are dedicated to empowering businesses to build lasting relationships and achieve their objectives.
+                            <p style={{textAlign:"justify"}}>
+                            At Revords, we are committed to delivering exceptional loyalty solutions that drive business success and enhance customer experiences. Our focus is on providing innovative, customizable software that adapts to the unique needs of each client, ensuring they have the tools necessary to thrive. With a strong emphasis on continuous improvement and a client-centered approach, we empower businesses to build lasting relationships and achieve their objectives.
+
 
                             </p>
                         </div>

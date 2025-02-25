@@ -1,6 +1,8 @@
 import React,{useEffect} from "react";
 import "../../Styles/TermCondition.css"
 import { Link } from "react-router-dom";
+import TearmsandCondition from "./Tearms and condition.png"
+import TC from "./TC.png"
 const TermCondition = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -14,16 +16,16 @@ const TermCondition = () => {
 
                         <div className="CommitmentContainer">
                             <div className="ContentContainerCommitment">
-                                <h2>Terms of Use Agreement for Revords LLC</h2>
+                                {/* <h2>Terms of Use Agreement for Revords LLC</h2>
                                 <p>
                                     <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link>&nbsp;&nbsp;/&nbsp;&nbsp;Terms & Condition
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                         <div className="overlayContainer">
 
                         </div>
-                        <img src="https://images.unsplash.com/photo-1621926187610-946177e44cca?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                        <img src={TC} alt="" />
                     </div>
                     <div className="ContentBody">
                         <h2>Terms of Use Agreement for Revords LLC</h2>

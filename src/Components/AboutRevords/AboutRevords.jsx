@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col,Image } from "antd";
 import "../../Styles/AboutRevords.css"
+import StoreTablet from "./Store.jpg"
+import CustomerTablet from "./Customer.jpg"
 const AboutRevords = () => {
 
 
@@ -11,11 +13,11 @@ const AboutRevords = () => {
         },
         {
             title: "Customer Tablet",
-            image: "/Images/CustomerAppImage.png"
+            image: CustomerTablet
         },
         {
             title: "Store Tablet",
-            image: "/Images/StoreTablet1.png"
+            image: StoreTablet
         },
         {
             title: "Mobile App For Business Owners And Customers",
@@ -25,9 +27,8 @@ const AboutRevords = () => {
     return (
         <>
             <section id="FeaturesCardContainer" className="SectionStyle">
-                <h2 className="sectionHeading">What do you get with REVORDS?</h2>
+                <h2 className="sectionHeading" style={{display:"flex"}}>What do you get with Revords<span style={{fontSize:"20px",marginRight:"5px"}}>&reg;</span>?</h2>
                 <div className="MainFeaturesContainer">
-
                     <Row>
                         {CardsData.map((item, index) => (
                             <Col lg={6} style={{ width: "100%" }}>
