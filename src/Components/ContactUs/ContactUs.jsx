@@ -30,7 +30,7 @@ const ContactUs = () => {
         <section id="ContactContainer">
             <Row>
                 <Col lg={12} md={12} style={{ width: "100%" }}>
-                    <div className="ContactFormContainer">
+                    <div className="ContactFormContainer" id="footer">
                         <h4>Your Details</h4>
                         <Form ref={formRef} onFinish={handleSubmit} className="FormContainerContact">
                             <Form.Item name="name" rules={[{ required: true, message: "Please enter your name" }]}>

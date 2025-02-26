@@ -97,6 +97,12 @@ const RevordsNavigation = () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    const scrollToFooter = () => {
+        const footer = document.getElementById("footer");
+        if (footer) {
+            footer.scrollIntoView({ behavior: "smooth" });
+        }
+    };
     return (
         <>
             <section className="NavigationContainer">
@@ -111,7 +117,9 @@ const RevordsNavigation = () => {
                         <div className="NavigationContactUsBtn">
                             <div>
                                 <div className="CommonBtnContainer">
-                                    <button className="TransparentBtn" onClick={showModal} >Request A Demo</button>
+                                    <button className="TransparentBtn" onClick={scrollToFooter}
+                                    //   onClick={showModal} 
+                                      >Connect Us</button>
                                 </div>
                             </div>
                         </div>
