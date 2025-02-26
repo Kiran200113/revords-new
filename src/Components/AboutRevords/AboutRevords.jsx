@@ -3,13 +3,15 @@ import { Row, Col,Image } from "antd";
 import "../../Styles/AboutRevords.css"
 import StoreTablet from "./Store.jpg"
 import CustomerTablet from "./Customer.jpg"
+import first from "./first.png"
+import Store from "./Store.png"
 const AboutRevords = () => {
 
 
     const CardsData = [
         {
             title: "Access to Powerful Dashboard",
-            image: "/Images/RevordUserFreindlyDashboard.png"
+            image: first
         },
         {
             title: "Customer Tablet",
@@ -17,7 +19,7 @@ const AboutRevords = () => {
         },
         {
             title: "Store Tablet",
-            image: StoreTablet
+            image: Store
         },
         {
             title: "Mobile App For Business Owners And Customers",
