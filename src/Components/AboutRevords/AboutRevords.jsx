@@ -16,7 +16,7 @@ const AboutRevords = () => {
         },
         {
             title: "Store Tablet",
-            image: "/Images/StoreTab.png"
+            image: "/Images/StoreTabFinal.png"
         },
         {
             title: "Mobile App For Business Owners And Customers",
