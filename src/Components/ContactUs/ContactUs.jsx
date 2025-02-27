@@ -34,13 +34,13 @@ const ContactUs = () => {
                         <h4>Your Details</h4>
                         <Form ref={formRef} onFinish={handleSubmit} className="FormContainerContact">
                             <Form.Item name="name" rules={[{ required: true, message: "Please enter your name" }]}>
-                                <Input placeholder="Your Name*" />
+                                <Input placeholder="Your Name" />
                             </Form.Item>
                             <Form.Item name="email" rules={[
                                     { required: true, message: "Please enter your email" },
                                     { type: "email", message: "Please enter a valid email" }
                                 ]}>
-                                <Input placeholder="Your Email*" />
+                                <Input placeholder="Your Email" />
                             </Form.Item>
                             <Form.Item name="number"  rules={[
                                     { pattern: /^[0-9]{10,}$/, message: "Enter a valid phone number (min 10 digits)" }
