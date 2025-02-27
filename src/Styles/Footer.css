@@ -1,6 +1,6 @@
 .Footer {
-    padding: 40px 40px;
-    padding-bottom: 20px !important;
+    padding: 10px 40px;
+    padding-bottom: 5px !important;
     background-color: white;
 }
 
@@ -26,6 +26,11 @@
     width: 200px;
 }
 
+#ColumnsEdit ul {
+    display: flex;
+    gap: 20px;
+}
+
 #ColumnsEdit ul li{
     color: black;
     margin: 10px 0px;
@@ -36,7 +41,11 @@
 }
 
 @media (max-width:769px) {
-
+    #ColumnsEdit ul {
+        display: flex;
+        flex-direction: column;
+        gap: 00px;
+    }
     .Footer {
         padding: 70px 20px;
         padding-bottom: 20px !important;

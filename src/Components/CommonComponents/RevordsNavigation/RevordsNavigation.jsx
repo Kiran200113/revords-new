@@ -119,7 +119,7 @@ const RevordsNavigation = () => {
                                 <div className="CommonBtnContainer">
                                     <button className="TransparentBtn" onClick={scrollToFooter}
                                     //   onClick={showModal} 
-                                      >Connect Us</button>
+                                      >Request a Demo</button>
                                 </div>
                             </div>
                         </div>

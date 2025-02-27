@@ -60,7 +60,7 @@ const ContactUs = () => {
                                 <TextArea placeholder="Message" />
                             </Form.Item>
                             <div className="BtnContainer">
-                                <Button type="primary" htmlType="submit">Send Message</Button>
+                                <Button type="primary" htmlType="submit">Submit</Button>
                             </div>
                         </Form>
                     </div>
