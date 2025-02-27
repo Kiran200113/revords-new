@@ -467,7 +467,7 @@ export const BusinessPageData = [
             <p>BrewHaus 31, the town's premier destination for elevated dining and entertainment, where craft beers, gourmet pizzas, refined cuisine, and expertly crafted cocktails converge in a sophisticated setting. Perfect for any occasion, from relaxed social get-togethers to vibrant evenings out, it offers a unique blend of exceptional taste and elegant ambiance.</p>
             <p><b>Address:&nbsp;</b>1320 S Main St, Algonquin, IL 60102
             </p>
-            <p><b>Phone:</b><Link to="tel:2242014053">&nbsp;2242014053</Link></p>
+            <p><b>Phone:</b><Link to="tel:8476585200">&nbsp;(847)-658-5200</Link></p>
             <p><b>Hours:</b></p>
             <ul>
                 <li>SUNDAY:&nbsp;11 AM to 9 PM
