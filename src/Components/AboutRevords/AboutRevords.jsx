@@ -1,17 +1,14 @@
 import React from "react";
 import { Row, Col,Image } from "antd";
 import "../../Styles/AboutRevords.css"
-import StoreTablet from "./Store.jpg"
 import CustomerTablet from "./Customer.jpg"
-import first from "./first.png"
-import Store from "./Store.png"
 const AboutRevords = () => {
 
 
     const CardsData = [
         {
             title: "Access to Powerful Dashboard",
-            image: first
+            image: "/Images/Dashboard.png"
         },
         {
             title: "Customer Tablet",
@@ -19,7 +16,7 @@ const AboutRevords = () => {
         },
         {
             title: "Store Tablet",
-            image: Store
+            image: "/Images/StoreTab.png"
         },
         {
             title: "Mobile App For Business Owners And Customers",
