@@ -63,26 +63,37 @@ h6 {
     opacity: 1;
   }
 }
-label{
+
+label {
   font-family: "Montserrat", sans-serif;
 }
-.ant-modal-title{
+
+.ant-modal-title {
   font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
 }
-button{
+
+button {
   font-family: "Montserrat", sans-serif;
 }
-input{
+
+input {
   font-family: "Montserrat", sans-serif;
 }
-.sectionHeading{
+
+.sectionHeading {
   font-size: 42px;
 }
-@media (max-width:769px){
-  .sectionHeading{
+
+.ant-image-preview-img {
+  border-radius: 42px;
+}
+
+@media (max-width:769px) {
+  .sectionHeading {
     font-size: 30px;
   }
+
   .TransparentBtn {
     background-color: hsla(0, 0%, 100%, 0);
     border: 1px solid rgba(255, 255, 255, 0.2);
