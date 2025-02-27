@@ -45,13 +45,13 @@ const ContactUs = () => {
                             <Form.Item name="number"  rules={[
                                     { pattern: /^[0-9]{10,}$/, message: "Enter a valid phone number (min 10 digits)" }
                                 ]}>
-                                <Input placeholder="Phone Number" />
+                                <Input placeholder="Your Number" type="number"/>
                             </Form.Item>
                             <Form.Item name="company"  rules={[{ max: 50, message: "Company name should be under 50 characters" }]}>
-                                <Input placeholder="Company" />
+                                <Input placeholder="Your Business" />
                             </Form.Item>
                             <Form.Item name="title"  rules={[{ max: 100, message: "Title should be under 100 characters" }]}>
-                                <Input placeholder="Title" />
+                                <Input placeholder="ZipCode" type="number"/>
                             </Form.Item>
                             <Form.Item name="message"  rules={[
                                     { required: true, message: "Please enter your message" },
