@@ -453,7 +453,7 @@ export const BusinessPageData = [
         </>
     },
     {
-        slug: "Brewhaus31",
+        slug: "brewhaus31",
         bannertitle: "Brewhaus 31",
         bannerTagline: '',
         businessLogo: "/Images/BussinessLogos/brewhaus-logo.png",
