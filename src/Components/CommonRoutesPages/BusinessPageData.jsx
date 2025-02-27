@@ -428,13 +428,13 @@ export const BusinessPageData = [
             <div>
                 <h1>Fortune's Locations</h1>
                 <h3><b>Streamwood, IL</b></h3>
-                <p>139 W Irving Park Rd, Streamwood, IL 60107 , Phone:<Link to="tel:6308555385">&nbsp;630-855-5385</Link>
+                <p>139 W Irving Park Rd, Streamwood, IL 60107 , Phone:<Link to="tel:6308555385">&nbsp;(630)-855-5385</Link>
                 </p>
                 <h3><b>Oswego, IL</b></h3>
-                <p>2758 Route 34, Oswego, IL 60543 , Phone:<Link to="tel:6306366325">&nbsp;630-636-6325</Link>
+                <p>2758 Route 34, Oswego, IL 60543 , Phone:<Link to="tel:6306366325">&nbsp;(630)-636-6325</Link>
                 </p>
                 <h3><b>South Elgin, IL</b></h3>
-                <p>1275 W Spring St, South Elgin, IL 60177 , Phone:<Link to="tel:2242383516">&nbsp;224-238-3516</Link>
+                <p>1275 W Spring St, South Elgin, IL 60177 , Phone:<Link to="tel:2242383516">&nbsp;(224)-238-3516</Link>
                 </p>
                 <h3><b>Carpentersville, IL</b></h3>
                 <p>2164 N Randall Rd, Carpentersville, IL</p>
