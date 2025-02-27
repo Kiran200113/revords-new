@@ -12,7 +12,7 @@ const AboutRevords = () => {
         },
         {
             title: "Customer Tablet",
-            image: CustomerTablet
+            image: "/Images/CustomerFinal.png"
         },
         {
             title: "Store Tablet",
