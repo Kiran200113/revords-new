@@ -41,6 +41,7 @@ const Footer = () => {
                             </div>
                         </Col>
                     </Row>
+                    
                     {/* <hr style={{ backgroundColor: "rgba(136, 158, 168, 0.2)", border: "0.5px solid rgba(136, 158, 168, 0.2)" }} /> */}
                     {/* <div className="CopywriteAndPrivacy">
                         <div>
