@@ -1,0 +1,57 @@
+/* .ContentBody{
+    background-color: #dbe7ec;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+.col5{
+    width: 40%;
+    text-align: center;
+}
+.col7{
+    width: 60%;
+} */
+
+
+.ContentBody {
+    background-color: #dbe7ec;
+    /* padding: 20px; */
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Desktop Layout */
+.col5 {
+    width: 40%;
+    text-align: center;
+}
+
+.col7 {
+    width: 60%;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col5, .col7 {
+        width: 100%;
+    }
+
+    .col5 img {
+        width: 80%; /* Adjust image size */
+        height: auto;
+    }
+
+    .col7 {
+        margin-top: 20px; /* Add space between image and text */
+    }
+}

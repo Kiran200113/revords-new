@@ -41,13 +41,13 @@ const Footer = () => {
                             </div>
                         </Col>
                     </Row>
-                    <hr style={{ backgroundColor: "rgba(136, 158, 168, 0.2)", border: "0.5px solid rgba(136, 158, 168, 0.2)" }} />
-                    <div className="CopywriteAndPrivacy">
+                    {/* <hr style={{ backgroundColor: "rgba(136, 158, 168, 0.2)", border: "0.5px solid rgba(136, 158, 168, 0.2)" }} /> */}
+                    {/* <div className="CopywriteAndPrivacy">
                         <div>
                             <p> © 2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions</Link>. All rights reserved.</p>
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

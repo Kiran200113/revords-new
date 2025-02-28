@@ -8,6 +8,7 @@ import PrivacyPolicy from "../PrivacyPolicy/PrivacyPolicy";
 import HotspotGaming from "../CompanyPage/HotspotGaming";
 import DynamicCommonRoutePage from "../CommonRoutesPages/DynamicCommonRoutePage";
 import { BusinessPageData } from "../CommonRoutesPages/BusinessPageData";
+import AppLinks from "../AppLinks/AppLinks";
 
 const RevordsRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const RevordsRoutes = () => {
                 <Route path="/" element={<HomePageRoutes />} />
                 <Route path="/term&condition" element={<TermCondition />} />
                 <Route path="/privacy&policy" element={<PrivacyPolicy />} />
+                <Route path="/app" element={<AppLinks />} />
                 {/* <Route path="/hotspotgaming" element={<HotspotGaming />} /> */}
                 {/* Dynamic route for slugs */}
                 <Route path=":slug" element={<DynamicCommonRoutePage data={BusinessPageData} />} />
